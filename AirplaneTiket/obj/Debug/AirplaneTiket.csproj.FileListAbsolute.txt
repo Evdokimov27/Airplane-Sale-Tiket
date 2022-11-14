@@ -27,3 +27,110 @@ C:\Users\Evdokimov\source\repos\AirplaneTiket\AirplaneTiket\obj\Debug\AirplaneTi
 C:\Users\Evdokimov\source\repos\AirplaneTiket\AirplaneTiket\obj\Debug\AirplaneTiket.exe
 C:\Users\Evdokimov\source\repos\AirplaneTiket\AirplaneTiket\obj\Debug\AirplaneTiket.pdb
 C:\Users\Evdokimov\source\repos\AirplaneTiket\AirplaneTiket\bin\Debug\GeoCoordinate.NetCore.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.exe.config
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.exe
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.pdb
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.SqlServer.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\GeoCoordinate.NetCore.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.Core.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.WindowsForms.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.WindowsPresentation.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\Newtonsoft.Json.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SqlClient.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.EF6.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.Linq.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Security.Principal.Windows.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.SqlServer.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\Newtonsoft.Json.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SqlClient.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Security.Principal.Windows.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.AssemblyReference.cache
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.SuggestedBindingRedirects.cache
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Auth.resources
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Tiket.resources
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Properties.Resources.resources
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.GenerateResource.cache
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.CoreCompileInputs.cache
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.CopyComplete
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.exe
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.pdb
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\BouncyCastle.Crypto.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.Streams.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Hash.xxHash.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\MySql.Data.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Buffers.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Memory.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Numerics.Vectors.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\ZstdNet.dll
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\BouncyCastle.Crypto.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.pdb
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.Streams.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Hash.xxHash.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\MySql.Data.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Buffers.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Memory.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Numerics.Vectors.xml
+G:\курсовая 4курс\kursovoy-main\AirplaneTiket\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.exe.config
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.exe
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\AirplaneTiket.pdb
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\BouncyCastle.Crypto.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\GeoCoordinate.NetCore.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.Core.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.WindowsForms.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\GMap.NET.WindowsPresentation.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.Streams.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Hash.xxHash.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\MySql.Data.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Buffers.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SqlClient.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Memory.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Numerics.Vectors.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Runtime.CompilerServices.Unsafe.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Security.Principal.Windows.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\ZstdNet.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\BouncyCastle.Crypto.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.pdb
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Google.Protobuf.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Compression.LZ4.Streams.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\K4os.Hash.xxHash.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\MySql.Data.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Buffers.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SqlClient.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Data.SQLite.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Memory.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Numerics.Vectors.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\System.Security.Principal.Windows.xml
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.AssemblyReference.cache
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Auth.resources
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Tiket.resources
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Properties.Resources.resources
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.GenerateResource.cache
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.CoreCompileInputs.cache
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.CopyComplete
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.exe
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.pdb
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Guna.UI2.dll
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.RecoverPass.resources
