@@ -20,13 +20,8 @@ namespace AirplaneTiket
 {
     public partial class Tiket : Form
     {
-        double x1;
-        double y1;
-        double x2;
-        double y2;
-        double distanceBetween;
-        double km;
-        double km1;
+        double x1,y1,x2,y2,distanceBetween,km,km1;
+        bool slide = false;
         int check = 0;
         public string name = "qwe";
         public Tiket()
@@ -185,11 +180,18 @@ namespace AirplaneTiket
             label1.Text = name;
         }
 
+        private void guna2ImageButton4_Click(object sender, EventArgs e)
+        {
+            slide = !slide;
+            timer1.Start();
+        }
+
         private void pictureBox1_Click(object sender, EventArgs e)
         {
             Auth auth = new Auth();
             auth.Show();
         }
+
         public void Authorize()
         {
             Auth auth = new Auth();            
@@ -219,6 +221,20 @@ namespace AirplaneTiket
             else if (button1.Text == "Откуда") MessageBox.Show("Выберите место отправления");
             else if (button2.Text == "Куда") MessageBox.Show("Выберите место прибытия");
             else if (button3.Text == "Дата") MessageBox.Show("Выберите время отправления");
+        }
+
+ 
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+
+            if(flowLayoutPanel1.Width < 240 && slide == true)
+            {
+                flowLayoutPanel1.Width += 10;
+            }
+            if (flowLayoutPanel1.Width > 90 && slide == false)
+            {
+                flowLayoutPanel1.Width -= 10;
+            }
         }
     }
 }
