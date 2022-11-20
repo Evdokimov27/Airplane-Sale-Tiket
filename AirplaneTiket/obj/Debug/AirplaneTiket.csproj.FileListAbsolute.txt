@@ -134,3 +134,7 @@ C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.e
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.pdb
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\bin\Debug\Guna.UI2.dll
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.RecoverPass.resources
+G:\kursovaya\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.AssemblyReference.cache
+G:\kursovaya\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.csproj.SuggestedBindingRedirects.cache
+G:\kursovaya\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.exe
+G:\kursovaya\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.pdb

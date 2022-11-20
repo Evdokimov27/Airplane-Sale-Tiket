@@ -110,5 +110,17 @@ namespace AirplaneTiket
             new RecoverPass().ShowDialog();
 
         }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+            this.Close();
+        }
+
+        private void label3_Click_1(object sender, EventArgs e)
+        {
+            Register register = new Register();
+            register.Show();
+            this.Close();
+        }
     }
 }
