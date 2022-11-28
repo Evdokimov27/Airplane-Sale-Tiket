@@ -13,7 +13,8 @@ namespace AirplaneTiket
         BuyTiket buy = new BuyTiket();
         Admin admin = new Admin();
         bool enter;
-        MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+        bd bd = new bd();
+        
 
         public Authz()
         {
@@ -26,9 +27,9 @@ namespace AirplaneTiket
             if (textBox1.Text != "" && textBox2.Text != "")
             {
                 {
-                    conn.Open();
+                    bd.openBD();
                     string admin = "SELECT * FROM `worker` WHERE `password`= @upass and `login` = @ulogin or phone_nomber = @nomber";
-                    MySqlCommand adm_command = new MySqlCommand(admin, conn);
+                    MySqlCommand adm_command = new MySqlCommand(admin, bd.conn);
 
                     adm_command.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
                     adm_command.Parameters.Add("@upass", MySqlDbType.VarChar, 25);
@@ -47,12 +48,12 @@ namespace AirplaneTiket
                     }
 
 
-                    conn.Close();
+                    bd.closeBD();
                 }
                 {
-                    conn.Open();
+                    bd.openBD();
                     string sql = "SELECT * FROM `user` WHERE `pass`= @upass and `login` = @ulogin or phone_nomber = @nomber";
-                    MySqlCommand command = new MySqlCommand(sql, conn);
+                    MySqlCommand command = new MySqlCommand(sql, bd.conn);
 
 
                     command.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
@@ -75,7 +76,7 @@ namespace AirplaneTiket
                         enter = true;
                     }
                     else if(enter == false)MessageBox.Show("Неверный логин или пароль!");
-                    conn.Close();
+                    bd.closeBD();
                 }
                     
 
@@ -109,7 +110,7 @@ namespace AirplaneTiket
         {
             
             string sql = "SELECT name, id_user FROM `user` WHERE `login` = @ulogin or `phone_nomber` = @nomber";
-            MySqlCommand name = new MySqlCommand(sql, conn);
+            MySqlCommand name = new MySqlCommand(sql, bd.conn);
             name.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
             name.Parameters["@ulogin"].Value = textBox1.Text;
             name.Parameters.Add("@nomber", MySqlDbType.VarChar, 25);
@@ -123,13 +124,13 @@ namespace AirplaneTiket
             reader.Close();
             Auth.ActiveForm.Hide();
             tiket.Show();
-            conn.Close();
+            bd.closeBD();
             reader.Close();
         }
         public void AdminP()
         {
             string sql = "SELECT FIO, specialisation.name_specialisation FROM `worker` JOIN specialisation on worker.specialisation_id_specialisation = specialisation.name_specialisation WHERE `login` = @ulogin or `phone_nomber` = @nomber";
-            MySqlCommand name = new MySqlCommand(sql, conn);
+            MySqlCommand name = new MySqlCommand(sql, bd.conn);
             name.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
             name.Parameters["@ulogin"].Value = textBox1.Text;
             name.Parameters.Add("@nomber", MySqlDbType.VarChar, 25);
@@ -145,7 +146,7 @@ namespace AirplaneTiket
             reader.Close();
             Auth.ActiveForm.Hide();
             admin.Show();
-            conn.Close();
+            bd.closeBD();
             reader.Close();
         }
 

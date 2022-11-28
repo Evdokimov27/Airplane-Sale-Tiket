@@ -14,7 +14,7 @@ namespace AirplaneTiket
         Settings sets = new Settings();
         Profile prof = new Profile();
         BuyTiket buy = new BuyTiket();
-        MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+        bd bd = new bd();
 
         public Reg()
         {
@@ -36,12 +36,12 @@ namespace AirplaneTiket
             }
             else
             {
-                conn.Open();
+                bd.openBD();
                 string sql = "INSERT INTO `user` (`id_user`, `login`, `pass`, `name`, `family`, `patronymic`, `phone_nomber`, `mail`, `serial_pasport`, `nomber_pasport`) " +
                                         "VALUES (NULL, @ulogin, @upass, @uname, @ufamily, @upatron, @unomber, @email, '0000', '000000')";
 
 
-                MySqlCommand command = new MySqlCommand(sql, conn);
+                MySqlCommand command = new MySqlCommand(sql, bd.conn);
                 command.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
                 command.Parameters.Add("@upass", MySqlDbType.VarChar, 25);
                 command.Parameters.Add("@unomber", MySqlDbType.VarChar, 11);
@@ -65,7 +65,7 @@ namespace AirplaneTiket
                     MessageBox.Show("Вы успешно зарегестрировались!");
                 }
                 else MessageBox.Show("Ошибка регистрации, попробуйте снова");
-                conn.Close();
+                bd.closeBD();
 
             }
         }

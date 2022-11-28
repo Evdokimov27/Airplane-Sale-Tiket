@@ -25,12 +25,12 @@ namespace AirplaneTiket
         private void LoadData()
         {
 
-            MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+            bd bd = new bd();
 
-            conn.Open();
+            bd.openBD();
 
             string query = "SELECT id_tiket, CONCAT(name,' ', family,' ', patronymic), departure, arrival, time_departure, time_arrival, tiket_price, confirm FROM `tiket`,`user` where `id_user` = `user_id`";
-            MySqlCommand command = new MySqlCommand(query, conn);
+            MySqlCommand command = new MySqlCommand(query, bd.conn);
             MySqlDataReader reader = command.ExecuteReader();
 
             List<string[]> data = new List<string[]>();
@@ -52,7 +52,7 @@ namespace AirplaneTiket
 
             reader.Close();
 
-            conn.Close();
+            bd.closeBD();
 
             foreach (string[] s in data)
             guna2DataGridView1.Rows.Add(s);
@@ -75,12 +75,12 @@ namespace AirplaneTiket
             }
 
 
-           MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+           bd bd = new bd();
        
-           conn.Open();
+           bd.openBD();
        
            string query = "UPDATE `tiket` SET `confirm` = " + Convert.ToInt32(ch3.Value) + " WHERE `tiket`.`id_tiket` = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
-           MySqlCommand command = new MySqlCommand(query, conn);
+           MySqlCommand command = new MySqlCommand(query, bd.conn);
             //command.ExecuteNonQuery();
             MessageBox.Show(Convert.ToInt32(ch3.Value).ToString());
 

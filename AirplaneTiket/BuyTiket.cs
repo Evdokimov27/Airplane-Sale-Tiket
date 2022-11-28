@@ -66,17 +66,17 @@ namespace AirplaneTiket
         {
            if (button1.Text != "Откуда" && button2.Text != "Куда" && button3.Text != "Дата")
             { 
-                MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
-               conn.Open();
+                bd bd = new bd();
+               bd.openBD();
                string sql = "INSERT INTO `tiket` (`id_tiket`, `user_id`, `departure`, `arrival`, `time_departure`, `time_arrival`, `tiket_price`, `confirm`, `airplane_id_airplane`) " +
                    "VALUES (NULL, @userid ,'" + button1.Text + "', '" + button2.Text + "', '" + button3.Text + "', '2022-11-08 11:03:39.000000', '" + km2 * 500 + "', '0', '0');";
-               MySqlCommand id = new MySqlCommand(sql, conn);
+               MySqlCommand id = new MySqlCommand(sql, bd.conn);
           
                id.Parameters.Add("@userid", MySqlDbType.Int32, 11);
                id.Parameters["@userid"].Value = Tiket.sets.id;
 
                id.ExecuteNonQuery();
-               conn.Close();
+               bd.closeBD();
                MessageBox.Show("Билет заказан!");
                 Guna2Panel someForm = (Guna2Panel)this.Parent;
                 someForm.Controls.Clear();

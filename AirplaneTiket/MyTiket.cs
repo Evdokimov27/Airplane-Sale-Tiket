@@ -15,6 +15,8 @@ namespace AirplaneTiket
 {
     public partial class MyTiket : UserControl
     {
+        bd bd = new bd();
+
         public MyTiket()
         {
             InitializeComponent();
@@ -27,14 +29,11 @@ namespace AirplaneTiket
         }
         private void LoadData()
         {
-
-            MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
-
-            conn.Open();
+            bd.openBD();
 
             string query = "SELECT departure, arrival, time_departure, time_arrival, tiket_price, confirm FROM `tiket` where user_id = @userid";
 
-            MySqlCommand command = new MySqlCommand(query, conn);
+            MySqlCommand command = new MySqlCommand(query, bd.conn);
             command.Parameters.Add("@userid", MySqlDbType.Int32, 11);
             command.Parameters["@userid"].Value = Tiket.sets.id;
             MySqlDataReader reader = command.ExecuteReader();
@@ -56,7 +55,7 @@ namespace AirplaneTiket
 
             reader.Close();
 
-            conn.Close();
+            bd.closeBD();
 
             foreach (string[] s in data)
                 guna2DataGridView1.Rows.Add(s);

@@ -139,6 +139,7 @@
     <Compile Include="Auth.Designer.cs">
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
+    <Compile Include="Class1.cs" />
     <Compile Include="MyTiket.cs">
       <SubType>UserControl</SubType>
     </Compile>

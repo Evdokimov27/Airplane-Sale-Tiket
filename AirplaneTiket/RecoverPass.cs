@@ -19,6 +19,7 @@ namespace AirplaneTiket
         string randomer;
         bool send = false;
         Random rnd = new Random();
+        bd bd = new bd();
 
         MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;port=3306;pwd=;database=airs;");
         public RecoverPass()
@@ -26,7 +27,13 @@ namespace AirplaneTiket
             InitializeComponent();
         }
 
+        public string GetHashMD5(string input)
+        {
+            var md5 = MD5.Create();
+            var hash = md5.ComputeHash(Encoding.UTF8.GetBytes(input));
 
+            return Convert.ToBase64String(hash);
+        }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
             if (randomer == null)
@@ -40,9 +47,9 @@ namespace AirplaneTiket
 
             if (textBox1.PlaceholderText != "Номер телефона" || textBox1.Text != "")
             {
-                conn.Open();
+                bd.openBD();
                 string sql = "SELECT mail FROM `user` WHERE `phone_nomber` = @nomber";
-                MySqlCommand name = new MySqlCommand(sql, conn);
+                MySqlCommand name = new MySqlCommand(sql, bd.conn);
                 name.Parameters.Add("@nomber", MySqlDbType.Int64, 11);
                 name.Parameters["@nomber"].Value = textBox1.Text;
                 MySqlDataReader email = name.ExecuteReader();
@@ -52,14 +59,14 @@ namespace AirplaneTiket
                     label1.Visible = true;
                     textBox2.Visible = true;
                 }
-                conn.Close();
+                bd.closeBD();
                 if (send_mail != null)
                 {
                     if (textBox2.Text == randomer)
                     {
-                        string pass = "UPDATE user SET pass = '"+ textBox3.Text +"' WHERE mail = '" + send_mail + "'";
+                        string pass = "UPDATE user SET pass = '"+ GetHashMD5(textBox3.Text) +"' WHERE mail = '" + send_mail + "'";
 
-                        conn.Open();
+                        bd.openBD();
                         MySqlCommand recover_pass = new MySqlCommand(pass, conn);
                         
                         if(recover_pass.ExecuteNonQuery() == 1)
@@ -83,7 +90,7 @@ namespace AirplaneTiket
                        client.EnableSsl = true;
                        client.Credentials = new NetworkCredential("airport_kursovoy@mail.ru", "M0K61YA1zvZQQpRk9Dzn");
                        client.Send(mail);
-                       conn.Close();
+                       bd.closeBD();
                     }
                     else if (send == true) MessageBox.Show("Код подтверждения неверный!");
 
@@ -108,7 +115,7 @@ namespace AirplaneTiket
                 else if (send_mail == null) MessageBox.Show("Данный пользователь не зарегестрирован");
 
 
-                conn.Close();
+                bd.closeBD();
             }
             else MessageBox.Show("Введите номер телефона");
         }
