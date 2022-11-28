@@ -19,9 +19,7 @@ namespace AirplaneTiket
 {
     public partial class BuyTiket : UserControl
     {
-        public int user_id;
-        double x1, y1, x2, y2, distanceBetween, km, km1;
-
+        double x1, y1, x2, y2, distanceBetween, km, km1, km2;
         private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
             if (check == 0)
@@ -44,7 +42,8 @@ namespace AirplaneTiket
 
                 distanceBetween = pin1.GetDistanceTo(pin2);
                 km = (distanceBetween / 1000);
-                km1 = km - km % 0.01;
+                km1 = km - km % 0.1;
+                km2 = Math.Round(km1/100);
                 label5.Text = km1 + " км".ToString();
             }
         }
@@ -56,28 +55,29 @@ namespace AirplaneTiket
             button3.Text = formattedStart + " ";
         }
 
+        private void BuyTiket_Load(object sender, EventArgs e)
+        {
+
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
-            if (button1.Text != "Откуда" && button2.Text != "Куда" && button3.Text != "Дата")
-            {
-                
-                MySqlConnection conn = new MySqlConnection("server=127.0.0.1;uid=root;port=3306;pwd=;database=airs;");
-                conn.Open();
-                string sql = "INSERT INTO `tiket` (`id_tiket`, `user_id`, `departure`, `arrival`, `time_departure`, `time_arrival`, `tiket_price`, `confirm`, `airplane_id_airplane`) " +
-                    "VALUES (NULL, @userid ,'" + button1.Text + "', '" + button2.Text + "', '" + button3.Text + "', '2022-11-08 11:03:39.000000', '" + km1 * 5 + "', '', '');";
-                MySqlCommand id = new MySqlCommand(sql, conn);
-
-
-                MySqlCommand command = new MySqlCommand(sql, conn);
-                id.Parameters.Add("@userid", MySqlDbType.Int32, 11);
-                id.Parameters["@userid"].Value = user_id;
-                MessageBox.Show(user_id.ToString());
-                MySqlDataReader read = id.ExecuteReader();
-                conn.Close();
-            }
-            else if (button1.Text == "Откуда") MessageBox.Show("Выберите место отправления");
-            else if (button2.Text == "Куда") MessageBox.Show("Выберите место прибытия");
-            else if (button3.Text == "Дата") MessageBox.Show("Выберите время отправления");
+           if (button1.Text != "Откуда" && button2.Text != "Куда" && button3.Text != "Дата")
+           {
+               
+               MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+               conn.Open();
+               string sql = "INSERT INTO `tiket` (`id_tiket`, `user_id`, `departure`, `arrival`, `time_departure`, `time_arrival`, `tiket_price`, `confirm`, `airplane_id_airplane`) " +
+                   "VALUES (NULL, @userid ,'" + button1.Text + "', '" + button2.Text + "', '" + button3.Text + "', '2022-11-08 11:03:39.000000', '" + km2 * 500 + "', '0', '0');";
+               MySqlCommand id = new MySqlCommand(sql, conn);
+          
+               id.Parameters.Add("@userid", MySqlDbType.Int32, 11);
+               id.Parameters["@userid"].Value = Tiket.sets.id;
+               conn.Close();
+           }
+           else if (button1.Text == "Откуда") MessageBox.Show("Выберите место отправления");
+           else if (button2.Text == "Куда") MessageBox.Show("Выберите место прибытия");
+           else if (button3.Text == "Дата") MessageBox.Show("Выберите время отправления");
         }
 
         private void button3_Click(object sender, EventArgs e)

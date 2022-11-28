@@ -34,235 +34,234 @@ namespace AirplaneTiket
             this.flowLayoutPanel3 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel13 = new Guna.UI2.WinForms.Guna2Panel();
             this.label14 = new System.Windows.Forms.Label();
+            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel4 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel14 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel15 = new Guna.UI2.WinForms.Guna2Panel();
             this.label15 = new System.Windows.Forms.Label();
+            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label16 = new System.Windows.Forms.Label();
+            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel16 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel17 = new Guna.UI2.WinForms.Guna2Panel();
             this.label17 = new System.Windows.Forms.Label();
+            this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label18 = new System.Windows.Forms.Label();
+            this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel18 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel19 = new Guna.UI2.WinForms.Guna2Panel();
             this.label19 = new System.Windows.Forms.Label();
+            this.guna2PictureBox17 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label20 = new System.Windows.Forms.Label();
+            this.guna2PictureBox18 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel20 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel21 = new Guna.UI2.WinForms.Guna2Panel();
             this.label21 = new System.Windows.Forms.Label();
+            this.guna2PictureBox19 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label22 = new System.Windows.Forms.Label();
+            this.guna2PictureBox20 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel22 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel23 = new Guna.UI2.WinForms.Guna2Panel();
             this.label23 = new System.Windows.Forms.Label();
+            this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label24 = new System.Windows.Forms.Label();
+            this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel5 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel24 = new Guna.UI2.WinForms.Guna2Panel();
             this.label25 = new System.Windows.Forms.Label();
+            this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel6 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel25 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel26 = new Guna.UI2.WinForms.Guna2Panel();
             this.label26 = new System.Windows.Forms.Label();
+            this.guna2PictureBox24 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label27 = new System.Windows.Forms.Label();
+            this.guna2PictureBox25 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel27 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel28 = new Guna.UI2.WinForms.Guna2Panel();
             this.label28 = new System.Windows.Forms.Label();
+            this.guna2PictureBox26 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label29 = new System.Windows.Forms.Label();
+            this.guna2PictureBox27 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel29 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel30 = new Guna.UI2.WinForms.Guna2Panel();
             this.label30 = new System.Windows.Forms.Label();
+            this.guna2PictureBox28 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label31 = new System.Windows.Forms.Label();
+            this.guna2PictureBox29 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel31 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel32 = new Guna.UI2.WinForms.Guna2Panel();
             this.label32 = new System.Windows.Forms.Label();
+            this.guna2PictureBox30 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label33 = new System.Windows.Forms.Label();
+            this.guna2PictureBox31 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel33 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel34 = new Guna.UI2.WinForms.Guna2Panel();
             this.label34 = new System.Windows.Forms.Label();
+            this.guna2PictureBox32 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label35 = new System.Windows.Forms.Label();
+            this.guna2PictureBox33 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel7 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel35 = new Guna.UI2.WinForms.Guna2Panel();
             this.label36 = new System.Windows.Forms.Label();
+            this.guna2PictureBox34 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel8 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel36 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel37 = new Guna.UI2.WinForms.Guna2Panel();
             this.label37 = new System.Windows.Forms.Label();
+            this.guna2PictureBox35 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label38 = new System.Windows.Forms.Label();
+            this.guna2PictureBox36 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel38 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel39 = new Guna.UI2.WinForms.Guna2Panel();
             this.label39 = new System.Windows.Forms.Label();
+            this.guna2PictureBox37 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label40 = new System.Windows.Forms.Label();
+            this.guna2PictureBox38 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel40 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel41 = new Guna.UI2.WinForms.Guna2Panel();
             this.label41 = new System.Windows.Forms.Label();
+            this.guna2PictureBox39 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label42 = new System.Windows.Forms.Label();
+            this.guna2PictureBox40 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel42 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel43 = new Guna.UI2.WinForms.Guna2Panel();
             this.label43 = new System.Windows.Forms.Label();
+            this.guna2PictureBox41 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label44 = new System.Windows.Forms.Label();
+            this.guna2PictureBox42 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.guna2Panel44 = new Guna.UI2.WinForms.Guna2Panel();
             this.guna2Panel45 = new Guna.UI2.WinForms.Guna2Panel();
             this.label45 = new System.Windows.Forms.Label();
+            this.guna2PictureBox43 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label46 = new System.Windows.Forms.Label();
-            this.ControlPanel = new Guna.UI2.WinForms.Guna2Panel();
+            this.guna2PictureBox44 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.flowLayoutPanel1 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel3 = new Guna.UI2.WinForms.Guna2Panel();
+            this.menu = new Guna.UI2.WinForms.Guna2ImageButton();
             this.label13 = new System.Windows.Forms.Label();
             this.flowLayoutPanel2 = new System.Windows.Forms.FlowLayoutPanel();
             this.guna2Panel46 = new Guna.UI2.WinForms.Guna2Panel();
+            this.buyTiket = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel47 = new Guna.UI2.WinForms.Guna2Panel();
             this.label48 = new System.Windows.Forms.Label();
+            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label49 = new System.Windows.Forms.Label();
             this.guna2Panel4 = new Guna.UI2.WinForms.Guna2Panel();
+            this.profile = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel5 = new Guna.UI2.WinForms.Guna2Panel();
             this.label2 = new System.Windows.Forms.Label();
+            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label3 = new System.Windows.Forms.Label();
             this.guna2Panel2 = new Guna.UI2.WinForms.Guna2Panel();
+            this.myTiket = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel6 = new Guna.UI2.WinForms.Guna2Panel();
             this.label4 = new System.Windows.Forms.Label();
+            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label6 = new System.Windows.Forms.Label();
             this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
+            this.settings = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
             this.label7 = new System.Windows.Forms.Label();
+            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label8 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
+            this.exit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
             this.label9 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.buyTiket1 = new AirplaneTiket.BuyTiket();
-            this.menu = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.buyTiket = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2PictureBox5 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.profile = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2PictureBox3 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.myTiket = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.settings = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.exit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2PictureBox1 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox12 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox13 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox14 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox15 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox16 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox17 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox18 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox19 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox20 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox21 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox22 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox23 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox24 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox25 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox26 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox27 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox28 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox29 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox30 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox31 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox32 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox33 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox34 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox35 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox36 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox37 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox38 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox39 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox40 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox41 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox42 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox43 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.guna2PictureBox44 = new Guna.UI2.WinForms.Guna2PictureBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.ControlPanel = new Guna.UI2.WinForms.Guna2Panel();
             this.flowLayoutPanel3.SuspendLayout();
             this.guna2Panel13.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
             this.flowLayoutPanel4.SuspendLayout();
             this.guna2Panel14.SuspendLayout();
             this.guna2Panel15.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
             this.guna2Panel16.SuspendLayout();
             this.guna2Panel17.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
             this.guna2Panel18.SuspendLayout();
             this.guna2Panel19.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).BeginInit();
             this.guna2Panel20.SuspendLayout();
             this.guna2Panel21.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).BeginInit();
             this.guna2Panel22.SuspendLayout();
             this.guna2Panel23.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
             this.flowLayoutPanel5.SuspendLayout();
             this.guna2Panel24.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
             this.flowLayoutPanel6.SuspendLayout();
             this.guna2Panel25.SuspendLayout();
             this.guna2Panel26.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).BeginInit();
             this.guna2Panel27.SuspendLayout();
             this.guna2Panel28.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox27)).BeginInit();
             this.guna2Panel29.SuspendLayout();
             this.guna2Panel30.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox28)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox29)).BeginInit();
             this.guna2Panel31.SuspendLayout();
             this.guna2Panel32.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox30)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox31)).BeginInit();
             this.guna2Panel33.SuspendLayout();
             this.guna2Panel34.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox32)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox33)).BeginInit();
             this.flowLayoutPanel7.SuspendLayout();
             this.guna2Panel35.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox34)).BeginInit();
             this.flowLayoutPanel8.SuspendLayout();
             this.guna2Panel36.SuspendLayout();
             this.guna2Panel37.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox35)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox36)).BeginInit();
             this.guna2Panel38.SuspendLayout();
             this.guna2Panel39.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox37)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox38)).BeginInit();
             this.guna2Panel40.SuspendLayout();
             this.guna2Panel41.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox39)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox40)).BeginInit();
             this.guna2Panel42.SuspendLayout();
             this.guna2Panel43.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox41)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox42)).BeginInit();
             this.guna2Panel44.SuspendLayout();
             this.guna2Panel45.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox43)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox44)).BeginInit();
             this.flowLayoutPanel1.SuspendLayout();
             this.guna2Panel3.SuspendLayout();
             this.flowLayoutPanel2.SuspendLayout();
             this.guna2Panel46.SuspendLayout();
             this.guna2Panel47.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
             this.guna2Panel4.SuspendLayout();
             this.guna2Panel5.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
             this.guna2Panel7.SuspendLayout();
             this.guna2Panel8.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.guna2Panel11.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox27)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox28)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox29)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox30)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox31)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox32)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox33)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox34)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox35)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox36)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox37)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox38)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox39)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox40)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox41)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox42)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox43)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox44)).BeginInit();
             this.SuspendLayout();
             // 
             // timer1
@@ -299,6 +298,17 @@ namespace AirplaneTiket
             this.label14.Size = new System.Drawing.Size(104, 45);
             this.label14.TabIndex = 21;
             this.label14.Text = "Меню";
+            // 
+            // guna2PictureBox12
+            // 
+            this.guna2PictureBox12.Image = global::AirplaneTiket.Properties.Resources.menu;
+            this.guna2PictureBox12.ImageRotate = 0F;
+            this.guna2PictureBox12.Location = new System.Drawing.Point(9, 9);
+            this.guna2PictureBox12.Name = "guna2PictureBox12";
+            this.guna2PictureBox12.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox12.TabIndex = 0;
+            this.guna2PictureBox12.TabStop = false;
             // 
             // flowLayoutPanel4
             // 
@@ -343,6 +353,15 @@ namespace AirplaneTiket
             this.label15.TabIndex = 20;
             this.label15.Text = "Профиль";
             // 
+            // guna2PictureBox13
+            // 
+            this.guna2PictureBox13.ImageRotate = 0F;
+            this.guna2PictureBox13.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox13.Name = "guna2PictureBox13";
+            this.guna2PictureBox13.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox13.TabIndex = 17;
+            this.guna2PictureBox13.TabStop = false;
+            // 
             // label16
             // 
             this.label16.AutoSize = true;
@@ -352,6 +371,15 @@ namespace AirplaneTiket
             this.label16.Size = new System.Drawing.Size(146, 45);
             this.label16.TabIndex = 20;
             this.label16.Text = "Профиль";
+            // 
+            // guna2PictureBox14
+            // 
+            this.guna2PictureBox14.ImageRotate = 0F;
+            this.guna2PictureBox14.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox14.Name = "guna2PictureBox14";
+            this.guna2PictureBox14.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox14.TabIndex = 17;
+            this.guna2PictureBox14.TabStop = false;
             // 
             // guna2Panel16
             // 
@@ -382,6 +410,15 @@ namespace AirplaneTiket
             this.label17.TabIndex = 20;
             this.label17.Text = "Профиль";
             // 
+            // guna2PictureBox15
+            // 
+            this.guna2PictureBox15.ImageRotate = 0F;
+            this.guna2PictureBox15.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox15.Name = "guna2PictureBox15";
+            this.guna2PictureBox15.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox15.TabIndex = 17;
+            this.guna2PictureBox15.TabStop = false;
+            // 
             // label18
             // 
             this.label18.AutoSize = true;
@@ -391,6 +428,15 @@ namespace AirplaneTiket
             this.label18.Size = new System.Drawing.Size(146, 45);
             this.label18.TabIndex = 20;
             this.label18.Text = "Профиль";
+            // 
+            // guna2PictureBox16
+            // 
+            this.guna2PictureBox16.ImageRotate = 0F;
+            this.guna2PictureBox16.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox16.Name = "guna2PictureBox16";
+            this.guna2PictureBox16.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox16.TabIndex = 17;
+            this.guna2PictureBox16.TabStop = false;
             // 
             // guna2Panel18
             // 
@@ -421,6 +467,15 @@ namespace AirplaneTiket
             this.label19.TabIndex = 20;
             this.label19.Text = "Профиль";
             // 
+            // guna2PictureBox17
+            // 
+            this.guna2PictureBox17.ImageRotate = 0F;
+            this.guna2PictureBox17.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox17.Name = "guna2PictureBox17";
+            this.guna2PictureBox17.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox17.TabIndex = 17;
+            this.guna2PictureBox17.TabStop = false;
+            // 
             // label20
             // 
             this.label20.AutoSize = true;
@@ -430,6 +485,15 @@ namespace AirplaneTiket
             this.label20.Size = new System.Drawing.Size(146, 45);
             this.label20.TabIndex = 20;
             this.label20.Text = "Профиль";
+            // 
+            // guna2PictureBox18
+            // 
+            this.guna2PictureBox18.ImageRotate = 0F;
+            this.guna2PictureBox18.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox18.Name = "guna2PictureBox18";
+            this.guna2PictureBox18.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox18.TabIndex = 17;
+            this.guna2PictureBox18.TabStop = false;
             // 
             // guna2Panel20
             // 
@@ -460,6 +524,15 @@ namespace AirplaneTiket
             this.label21.TabIndex = 20;
             this.label21.Text = "Профиль";
             // 
+            // guna2PictureBox19
+            // 
+            this.guna2PictureBox19.ImageRotate = 0F;
+            this.guna2PictureBox19.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox19.Name = "guna2PictureBox19";
+            this.guna2PictureBox19.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox19.TabIndex = 17;
+            this.guna2PictureBox19.TabStop = false;
+            // 
             // label22
             // 
             this.label22.AutoSize = true;
@@ -469,6 +542,15 @@ namespace AirplaneTiket
             this.label22.Size = new System.Drawing.Size(146, 45);
             this.label22.TabIndex = 20;
             this.label22.Text = "Профиль";
+            // 
+            // guna2PictureBox20
+            // 
+            this.guna2PictureBox20.ImageRotate = 0F;
+            this.guna2PictureBox20.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox20.Name = "guna2PictureBox20";
+            this.guna2PictureBox20.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox20.TabIndex = 17;
+            this.guna2PictureBox20.TabStop = false;
             // 
             // guna2Panel22
             // 
@@ -499,6 +581,15 @@ namespace AirplaneTiket
             this.label23.TabIndex = 20;
             this.label23.Text = "Профиль";
             // 
+            // guna2PictureBox21
+            // 
+            this.guna2PictureBox21.ImageRotate = 0F;
+            this.guna2PictureBox21.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox21.Name = "guna2PictureBox21";
+            this.guna2PictureBox21.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox21.TabIndex = 17;
+            this.guna2PictureBox21.TabStop = false;
+            // 
             // label24
             // 
             this.label24.AutoSize = true;
@@ -508,6 +599,15 @@ namespace AirplaneTiket
             this.label24.Size = new System.Drawing.Size(146, 45);
             this.label24.TabIndex = 20;
             this.label24.Text = "Профиль";
+            // 
+            // guna2PictureBox22
+            // 
+            this.guna2PictureBox22.ImageRotate = 0F;
+            this.guna2PictureBox22.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox22.Name = "guna2PictureBox22";
+            this.guna2PictureBox22.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox22.TabIndex = 17;
+            this.guna2PictureBox22.TabStop = false;
             // 
             // flowLayoutPanel5
             // 
@@ -539,6 +639,17 @@ namespace AirplaneTiket
             this.label25.Size = new System.Drawing.Size(104, 45);
             this.label25.TabIndex = 21;
             this.label25.Text = "Меню";
+            // 
+            // guna2PictureBox23
+            // 
+            this.guna2PictureBox23.Image = global::AirplaneTiket.Properties.Resources.menu;
+            this.guna2PictureBox23.ImageRotate = 0F;
+            this.guna2PictureBox23.Location = new System.Drawing.Point(9, 9);
+            this.guna2PictureBox23.Name = "guna2PictureBox23";
+            this.guna2PictureBox23.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox23.TabIndex = 0;
+            this.guna2PictureBox23.TabStop = false;
             // 
             // flowLayoutPanel6
             // 
@@ -583,6 +694,15 @@ namespace AirplaneTiket
             this.label26.TabIndex = 20;
             this.label26.Text = "Профиль";
             // 
+            // guna2PictureBox24
+            // 
+            this.guna2PictureBox24.ImageRotate = 0F;
+            this.guna2PictureBox24.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox24.Name = "guna2PictureBox24";
+            this.guna2PictureBox24.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox24.TabIndex = 17;
+            this.guna2PictureBox24.TabStop = false;
+            // 
             // label27
             // 
             this.label27.AutoSize = true;
@@ -592,6 +712,15 @@ namespace AirplaneTiket
             this.label27.Size = new System.Drawing.Size(146, 45);
             this.label27.TabIndex = 20;
             this.label27.Text = "Профиль";
+            // 
+            // guna2PictureBox25
+            // 
+            this.guna2PictureBox25.ImageRotate = 0F;
+            this.guna2PictureBox25.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox25.Name = "guna2PictureBox25";
+            this.guna2PictureBox25.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox25.TabIndex = 17;
+            this.guna2PictureBox25.TabStop = false;
             // 
             // guna2Panel27
             // 
@@ -622,6 +751,15 @@ namespace AirplaneTiket
             this.label28.TabIndex = 20;
             this.label28.Text = "Профиль";
             // 
+            // guna2PictureBox26
+            // 
+            this.guna2PictureBox26.ImageRotate = 0F;
+            this.guna2PictureBox26.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox26.Name = "guna2PictureBox26";
+            this.guna2PictureBox26.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox26.TabIndex = 17;
+            this.guna2PictureBox26.TabStop = false;
+            // 
             // label29
             // 
             this.label29.AutoSize = true;
@@ -631,6 +769,15 @@ namespace AirplaneTiket
             this.label29.Size = new System.Drawing.Size(146, 45);
             this.label29.TabIndex = 20;
             this.label29.Text = "Профиль";
+            // 
+            // guna2PictureBox27
+            // 
+            this.guna2PictureBox27.ImageRotate = 0F;
+            this.guna2PictureBox27.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox27.Name = "guna2PictureBox27";
+            this.guna2PictureBox27.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox27.TabIndex = 17;
+            this.guna2PictureBox27.TabStop = false;
             // 
             // guna2Panel29
             // 
@@ -661,6 +808,15 @@ namespace AirplaneTiket
             this.label30.TabIndex = 20;
             this.label30.Text = "Профиль";
             // 
+            // guna2PictureBox28
+            // 
+            this.guna2PictureBox28.ImageRotate = 0F;
+            this.guna2PictureBox28.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox28.Name = "guna2PictureBox28";
+            this.guna2PictureBox28.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox28.TabIndex = 17;
+            this.guna2PictureBox28.TabStop = false;
+            // 
             // label31
             // 
             this.label31.AutoSize = true;
@@ -670,6 +826,15 @@ namespace AirplaneTiket
             this.label31.Size = new System.Drawing.Size(146, 45);
             this.label31.TabIndex = 20;
             this.label31.Text = "Профиль";
+            // 
+            // guna2PictureBox29
+            // 
+            this.guna2PictureBox29.ImageRotate = 0F;
+            this.guna2PictureBox29.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox29.Name = "guna2PictureBox29";
+            this.guna2PictureBox29.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox29.TabIndex = 17;
+            this.guna2PictureBox29.TabStop = false;
             // 
             // guna2Panel31
             // 
@@ -700,6 +865,15 @@ namespace AirplaneTiket
             this.label32.TabIndex = 20;
             this.label32.Text = "Профиль";
             // 
+            // guna2PictureBox30
+            // 
+            this.guna2PictureBox30.ImageRotate = 0F;
+            this.guna2PictureBox30.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox30.Name = "guna2PictureBox30";
+            this.guna2PictureBox30.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox30.TabIndex = 17;
+            this.guna2PictureBox30.TabStop = false;
+            // 
             // label33
             // 
             this.label33.AutoSize = true;
@@ -709,6 +883,15 @@ namespace AirplaneTiket
             this.label33.Size = new System.Drawing.Size(146, 45);
             this.label33.TabIndex = 20;
             this.label33.Text = "Профиль";
+            // 
+            // guna2PictureBox31
+            // 
+            this.guna2PictureBox31.ImageRotate = 0F;
+            this.guna2PictureBox31.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox31.Name = "guna2PictureBox31";
+            this.guna2PictureBox31.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox31.TabIndex = 17;
+            this.guna2PictureBox31.TabStop = false;
             // 
             // guna2Panel33
             // 
@@ -739,6 +922,15 @@ namespace AirplaneTiket
             this.label34.TabIndex = 20;
             this.label34.Text = "Профиль";
             // 
+            // guna2PictureBox32
+            // 
+            this.guna2PictureBox32.ImageRotate = 0F;
+            this.guna2PictureBox32.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox32.Name = "guna2PictureBox32";
+            this.guna2PictureBox32.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox32.TabIndex = 17;
+            this.guna2PictureBox32.TabStop = false;
+            // 
             // label35
             // 
             this.label35.AutoSize = true;
@@ -748,6 +940,15 @@ namespace AirplaneTiket
             this.label35.Size = new System.Drawing.Size(146, 45);
             this.label35.TabIndex = 20;
             this.label35.Text = "Профиль";
+            // 
+            // guna2PictureBox33
+            // 
+            this.guna2PictureBox33.ImageRotate = 0F;
+            this.guna2PictureBox33.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox33.Name = "guna2PictureBox33";
+            this.guna2PictureBox33.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox33.TabIndex = 17;
+            this.guna2PictureBox33.TabStop = false;
             // 
             // flowLayoutPanel7
             // 
@@ -778,6 +979,17 @@ namespace AirplaneTiket
             this.label36.Size = new System.Drawing.Size(104, 45);
             this.label36.TabIndex = 21;
             this.label36.Text = "Меню";
+            // 
+            // guna2PictureBox34
+            // 
+            this.guna2PictureBox34.Image = global::AirplaneTiket.Properties.Resources.menu;
+            this.guna2PictureBox34.ImageRotate = 0F;
+            this.guna2PictureBox34.Location = new System.Drawing.Point(9, 9);
+            this.guna2PictureBox34.Name = "guna2PictureBox34";
+            this.guna2PictureBox34.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
+            this.guna2PictureBox34.TabIndex = 0;
+            this.guna2PictureBox34.TabStop = false;
             // 
             // flowLayoutPanel8
             // 
@@ -822,6 +1034,15 @@ namespace AirplaneTiket
             this.label37.TabIndex = 20;
             this.label37.Text = "Профиль";
             // 
+            // guna2PictureBox35
+            // 
+            this.guna2PictureBox35.ImageRotate = 0F;
+            this.guna2PictureBox35.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox35.Name = "guna2PictureBox35";
+            this.guna2PictureBox35.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox35.TabIndex = 17;
+            this.guna2PictureBox35.TabStop = false;
+            // 
             // label38
             // 
             this.label38.AutoSize = true;
@@ -831,6 +1052,15 @@ namespace AirplaneTiket
             this.label38.Size = new System.Drawing.Size(146, 45);
             this.label38.TabIndex = 20;
             this.label38.Text = "Профиль";
+            // 
+            // guna2PictureBox36
+            // 
+            this.guna2PictureBox36.ImageRotate = 0F;
+            this.guna2PictureBox36.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox36.Name = "guna2PictureBox36";
+            this.guna2PictureBox36.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox36.TabIndex = 17;
+            this.guna2PictureBox36.TabStop = false;
             // 
             // guna2Panel38
             // 
@@ -861,6 +1091,15 @@ namespace AirplaneTiket
             this.label39.TabIndex = 20;
             this.label39.Text = "Профиль";
             // 
+            // guna2PictureBox37
+            // 
+            this.guna2PictureBox37.ImageRotate = 0F;
+            this.guna2PictureBox37.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox37.Name = "guna2PictureBox37";
+            this.guna2PictureBox37.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox37.TabIndex = 17;
+            this.guna2PictureBox37.TabStop = false;
+            // 
             // label40
             // 
             this.label40.AutoSize = true;
@@ -870,6 +1109,15 @@ namespace AirplaneTiket
             this.label40.Size = new System.Drawing.Size(146, 45);
             this.label40.TabIndex = 20;
             this.label40.Text = "Профиль";
+            // 
+            // guna2PictureBox38
+            // 
+            this.guna2PictureBox38.ImageRotate = 0F;
+            this.guna2PictureBox38.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox38.Name = "guna2PictureBox38";
+            this.guna2PictureBox38.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox38.TabIndex = 17;
+            this.guna2PictureBox38.TabStop = false;
             // 
             // guna2Panel40
             // 
@@ -900,6 +1148,15 @@ namespace AirplaneTiket
             this.label41.TabIndex = 20;
             this.label41.Text = "Профиль";
             // 
+            // guna2PictureBox39
+            // 
+            this.guna2PictureBox39.ImageRotate = 0F;
+            this.guna2PictureBox39.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox39.Name = "guna2PictureBox39";
+            this.guna2PictureBox39.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox39.TabIndex = 17;
+            this.guna2PictureBox39.TabStop = false;
+            // 
             // label42
             // 
             this.label42.AutoSize = true;
@@ -909,6 +1166,15 @@ namespace AirplaneTiket
             this.label42.Size = new System.Drawing.Size(146, 45);
             this.label42.TabIndex = 20;
             this.label42.Text = "Профиль";
+            // 
+            // guna2PictureBox40
+            // 
+            this.guna2PictureBox40.ImageRotate = 0F;
+            this.guna2PictureBox40.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox40.Name = "guna2PictureBox40";
+            this.guna2PictureBox40.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox40.TabIndex = 17;
+            this.guna2PictureBox40.TabStop = false;
             // 
             // guna2Panel42
             // 
@@ -939,6 +1205,15 @@ namespace AirplaneTiket
             this.label43.TabIndex = 20;
             this.label43.Text = "Профиль";
             // 
+            // guna2PictureBox41
+            // 
+            this.guna2PictureBox41.ImageRotate = 0F;
+            this.guna2PictureBox41.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox41.Name = "guna2PictureBox41";
+            this.guna2PictureBox41.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox41.TabIndex = 17;
+            this.guna2PictureBox41.TabStop = false;
+            // 
             // label44
             // 
             this.label44.AutoSize = true;
@@ -948,6 +1223,15 @@ namespace AirplaneTiket
             this.label44.Size = new System.Drawing.Size(146, 45);
             this.label44.TabIndex = 20;
             this.label44.Text = "Профиль";
+            // 
+            // guna2PictureBox42
+            // 
+            this.guna2PictureBox42.ImageRotate = 0F;
+            this.guna2PictureBox42.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox42.Name = "guna2PictureBox42";
+            this.guna2PictureBox42.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox42.TabIndex = 17;
+            this.guna2PictureBox42.TabStop = false;
             // 
             // guna2Panel44
             // 
@@ -978,6 +1262,15 @@ namespace AirplaneTiket
             this.label45.TabIndex = 20;
             this.label45.Text = "Профиль";
             // 
+            // guna2PictureBox43
+            // 
+            this.guna2PictureBox43.ImageRotate = 0F;
+            this.guna2PictureBox43.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox43.Name = "guna2PictureBox43";
+            this.guna2PictureBox43.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox43.TabIndex = 17;
+            this.guna2PictureBox43.TabStop = false;
+            // 
             // label46
             // 
             this.label46.AutoSize = true;
@@ -988,12 +1281,14 @@ namespace AirplaneTiket
             this.label46.TabIndex = 20;
             this.label46.Text = "Профиль";
             // 
-            // ControlPanel
+            // guna2PictureBox44
             // 
-            this.ControlPanel.Location = new System.Drawing.Point(95, 6);
-            this.ControlPanel.Name = "ControlPanel";
-            this.ControlPanel.Size = new System.Drawing.Size(408, 560);
-            this.ControlPanel.TabIndex = 19;
+            this.guna2PictureBox44.ImageRotate = 0F;
+            this.guna2PictureBox44.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox44.Name = "guna2PictureBox44";
+            this.guna2PictureBox44.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox44.TabIndex = 17;
+            this.guna2PictureBox44.TabStop = false;
             // 
             // flowLayoutPanel1
             // 
@@ -1014,6 +1309,21 @@ namespace AirplaneTiket
             this.guna2Panel3.Name = "guna2Panel3";
             this.guna2Panel3.Size = new System.Drawing.Size(235, 76);
             this.guna2Panel3.TabIndex = 2;
+            // 
+            // menu
+            // 
+            this.menu.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menu.HoverState.ImageSize = new System.Drawing.Size(55, 55);
+            this.menu.Image = global::AirplaneTiket.Properties.Resources.menu;
+            this.menu.ImageOffset = new System.Drawing.Point(0, 0);
+            this.menu.ImageRotate = 0F;
+            this.menu.ImageSize = new System.Drawing.Size(57, 57);
+            this.menu.Location = new System.Drawing.Point(0, 0);
+            this.menu.Name = "menu";
+            this.menu.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.menu.Size = new System.Drawing.Size(78, 76);
+            this.menu.TabIndex = 24;
+            this.menu.Click += new System.EventHandler(this.menu_Click);
             // 
             // label13
             // 
@@ -1050,6 +1360,21 @@ namespace AirplaneTiket
             this.guna2Panel46.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel46.TabIndex = 25;
             // 
+            // buyTiket
+            // 
+            this.buyTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.buyTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
+            this.buyTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.buyTiket.ImageOffset = new System.Drawing.Point(0, 0);
+            this.buyTiket.ImageRotate = 0F;
+            this.buyTiket.ImageSize = new System.Drawing.Size(67, 67);
+            this.buyTiket.Location = new System.Drawing.Point(0, 3);
+            this.buyTiket.Name = "buyTiket";
+            this.buyTiket.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.buyTiket.Size = new System.Drawing.Size(75, 76);
+            this.buyTiket.TabIndex = 23;
+            this.buyTiket.Click += new System.EventHandler(this.buyTiket_Click);
+            // 
             // guna2Panel47
             // 
             this.guna2Panel47.Controls.Add(this.label48);
@@ -1068,6 +1393,15 @@ namespace AirplaneTiket
             this.label48.Size = new System.Drawing.Size(146, 45);
             this.label48.TabIndex = 20;
             this.label48.Text = "Профиль";
+            // 
+            // guna2PictureBox5
+            // 
+            this.guna2PictureBox5.ImageRotate = 0F;
+            this.guna2PictureBox5.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox5.Name = "guna2PictureBox5";
+            this.guna2PictureBox5.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox5.TabIndex = 17;
+            this.guna2PictureBox5.TabStop = false;
             // 
             // label49
             // 
@@ -1090,6 +1424,21 @@ namespace AirplaneTiket
             this.guna2Panel4.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel4.TabIndex = 21;
             // 
+            // profile
+            // 
+            this.profile.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.profile.HoverState.ImageSize = new System.Drawing.Size(65, 65);
+            this.profile.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.profile.ImageOffset = new System.Drawing.Point(0, 0);
+            this.profile.ImageRotate = 0F;
+            this.profile.ImageSize = new System.Drawing.Size(67, 67);
+            this.profile.Location = new System.Drawing.Point(0, 3);
+            this.profile.Name = "profile";
+            this.profile.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.profile.Size = new System.Drawing.Size(75, 76);
+            this.profile.TabIndex = 23;
+            this.profile.Click += new System.EventHandler(this.profile_Click);
+            // 
             // guna2Panel5
             // 
             this.guna2Panel5.Controls.Add(this.label2);
@@ -1108,6 +1457,15 @@ namespace AirplaneTiket
             this.label2.Size = new System.Drawing.Size(146, 45);
             this.label2.TabIndex = 20;
             this.label2.Text = "Профиль";
+            // 
+            // guna2PictureBox3
+            // 
+            this.guna2PictureBox3.ImageRotate = 0F;
+            this.guna2PictureBox3.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox3.Name = "guna2PictureBox3";
+            this.guna2PictureBox3.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox3.TabIndex = 17;
+            this.guna2PictureBox3.TabStop = false;
             // 
             // label3
             // 
@@ -1130,6 +1488,21 @@ namespace AirplaneTiket
             this.guna2Panel2.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel2.TabIndex = 24;
             // 
+            // myTiket
+            // 
+            this.myTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.myTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
+            this.myTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.myTiket.ImageOffset = new System.Drawing.Point(0, 0);
+            this.myTiket.ImageRotate = 0F;
+            this.myTiket.ImageSize = new System.Drawing.Size(67, 67);
+            this.myTiket.Location = new System.Drawing.Point(0, 3);
+            this.myTiket.Name = "myTiket";
+            this.myTiket.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.myTiket.Size = new System.Drawing.Size(75, 76);
+            this.myTiket.TabIndex = 23;
+            this.myTiket.Click += new System.EventHandler(this.myTiket_Click);
+            // 
             // guna2Panel6
             // 
             this.guna2Panel6.Controls.Add(this.label4);
@@ -1148,6 +1521,15 @@ namespace AirplaneTiket
             this.label4.Size = new System.Drawing.Size(146, 45);
             this.label4.TabIndex = 20;
             this.label4.Text = "Профиль";
+            // 
+            // guna2PictureBox2
+            // 
+            this.guna2PictureBox2.ImageRotate = 0F;
+            this.guna2PictureBox2.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox2.Name = "guna2PictureBox2";
+            this.guna2PictureBox2.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox2.TabIndex = 17;
+            this.guna2PictureBox2.TabStop = false;
             // 
             // label6
             // 
@@ -1170,6 +1552,21 @@ namespace AirplaneTiket
             this.guna2Panel7.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel7.TabIndex = 24;
             // 
+            // settings
+            // 
+            this.settings.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.settings.HoverState.ImageSize = new System.Drawing.Size(65, 65);
+            this.settings.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.settings.ImageOffset = new System.Drawing.Point(0, 0);
+            this.settings.ImageRotate = 0F;
+            this.settings.ImageSize = new System.Drawing.Size(67, 67);
+            this.settings.Location = new System.Drawing.Point(0, 3);
+            this.settings.Name = "settings";
+            this.settings.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.settings.Size = new System.Drawing.Size(75, 76);
+            this.settings.TabIndex = 23;
+            this.settings.Click += new System.EventHandler(this.settings_Click);
+            // 
             // guna2Panel8
             // 
             this.guna2Panel8.Controls.Add(this.label7);
@@ -1188,6 +1585,15 @@ namespace AirplaneTiket
             this.label7.Size = new System.Drawing.Size(146, 45);
             this.label7.TabIndex = 20;
             this.label7.Text = "Профиль";
+            // 
+            // guna2PictureBox4
+            // 
+            this.guna2PictureBox4.ImageRotate = 0F;
+            this.guna2PictureBox4.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox4.Name = "guna2PictureBox4";
+            this.guna2PictureBox4.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox4.TabIndex = 17;
+            this.guna2PictureBox4.TabStop = false;
             // 
             // label8
             // 
@@ -1210,6 +1616,21 @@ namespace AirplaneTiket
             this.guna2Panel11.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel11.TabIndex = 25;
             // 
+            // exit
+            // 
+            this.exit.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.exit.HoverState.ImageSize = new System.Drawing.Size(65, 65);
+            this.exit.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.exit.ImageOffset = new System.Drawing.Point(0, 0);
+            this.exit.ImageRotate = 0F;
+            this.exit.ImageSize = new System.Drawing.Size(67, 67);
+            this.exit.Location = new System.Drawing.Point(0, 3);
+            this.exit.Name = "exit";
+            this.exit.PressedState.ImageSize = new System.Drawing.Size(64, 64);
+            this.exit.Size = new System.Drawing.Size(75, 76);
+            this.exit.TabIndex = 23;
+            this.exit.Click += new System.EventHandler(this.exit_Click);
+            // 
             // guna2Panel12
             // 
             this.guna2Panel12.Controls.Add(this.label9);
@@ -1229,6 +1650,15 @@ namespace AirplaneTiket
             this.label9.TabIndex = 20;
             this.label9.Text = "Профиль";
             // 
+            // guna2PictureBox1
+            // 
+            this.guna2PictureBox1.ImageRotate = 0F;
+            this.guna2PictureBox1.Location = new System.Drawing.Point(9, 13);
+            this.guna2PictureBox1.Name = "guna2PictureBox1";
+            this.guna2PictureBox1.Size = new System.Drawing.Size(60, 55);
+            this.guna2PictureBox1.TabIndex = 17;
+            this.guna2PictureBox1.TabStop = false;
+            // 
             // label10
             // 
             this.label10.AutoSize = true;
@@ -1239,457 +1669,19 @@ namespace AirplaneTiket
             this.label10.TabIndex = 20;
             this.label10.Text = "Выход";
             // 
-            // buyTiket1
-            // 
-            this.buyTiket1.Location = new System.Drawing.Point(98, 9);
-            this.buyTiket1.Name = "buyTiket1";
-            this.buyTiket1.Size = new System.Drawing.Size(408, 560);
-            this.buyTiket1.TabIndex = 0;
-            // 
-            // menu
-            // 
-            this.menu.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menu.HoverState.ImageSize = new System.Drawing.Size(55, 55);
-            this.menu.Image = global::AirplaneTiket.Properties.Resources.menu;
-            this.menu.ImageOffset = new System.Drawing.Point(0, 0);
-            this.menu.ImageRotate = 0F;
-            this.menu.ImageSize = new System.Drawing.Size(57, 57);
-            this.menu.Location = new System.Drawing.Point(0, 0);
-            this.menu.Name = "menu";
-            this.menu.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.menu.Size = new System.Drawing.Size(78, 76);
-            this.menu.TabIndex = 24;
-            this.menu.Click += new System.EventHandler(this.menu_Click);
-            // 
-            // buyTiket
-            // 
-            this.buyTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.buyTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.buyTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.buyTiket.ImageOffset = new System.Drawing.Point(0, 0);
-            this.buyTiket.ImageRotate = 0F;
-            this.buyTiket.ImageSize = new System.Drawing.Size(67, 67);
-            this.buyTiket.Location = new System.Drawing.Point(0, 3);
-            this.buyTiket.Name = "buyTiket";
-            this.buyTiket.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.buyTiket.Size = new System.Drawing.Size(75, 76);
-            this.buyTiket.TabIndex = 23;
-            this.buyTiket.Click += new System.EventHandler(this.buyTiket_Click);
-            // 
-            // guna2PictureBox5
-            // 
-            this.guna2PictureBox5.ImageRotate = 0F;
-            this.guna2PictureBox5.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox5.Name = "guna2PictureBox5";
-            this.guna2PictureBox5.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox5.TabIndex = 17;
-            this.guna2PictureBox5.TabStop = false;
-            // 
-            // profile
-            // 
-            this.profile.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.profile.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.profile.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.profile.ImageOffset = new System.Drawing.Point(0, 0);
-            this.profile.ImageRotate = 0F;
-            this.profile.ImageSize = new System.Drawing.Size(67, 67);
-            this.profile.Location = new System.Drawing.Point(0, 3);
-            this.profile.Name = "profile";
-            this.profile.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.profile.Size = new System.Drawing.Size(75, 76);
-            this.profile.TabIndex = 23;
-            this.profile.Click += new System.EventHandler(this.profile_Click);
-            // 
-            // guna2PictureBox3
-            // 
-            this.guna2PictureBox3.ImageRotate = 0F;
-            this.guna2PictureBox3.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox3.Name = "guna2PictureBox3";
-            this.guna2PictureBox3.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox3.TabIndex = 17;
-            this.guna2PictureBox3.TabStop = false;
-            // 
-            // myTiket
-            // 
-            this.myTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.myTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.myTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.myTiket.ImageOffset = new System.Drawing.Point(0, 0);
-            this.myTiket.ImageRotate = 0F;
-            this.myTiket.ImageSize = new System.Drawing.Size(67, 67);
-            this.myTiket.Location = new System.Drawing.Point(0, 3);
-            this.myTiket.Name = "myTiket";
-            this.myTiket.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.myTiket.Size = new System.Drawing.Size(75, 76);
-            this.myTiket.TabIndex = 23;
-            this.myTiket.Click += new System.EventHandler(this.myTiket_Click);
-            // 
-            // guna2PictureBox2
-            // 
-            this.guna2PictureBox2.ImageRotate = 0F;
-            this.guna2PictureBox2.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox2.Name = "guna2PictureBox2";
-            this.guna2PictureBox2.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox2.TabIndex = 17;
-            this.guna2PictureBox2.TabStop = false;
-            // 
-            // settings
-            // 
-            this.settings.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.settings.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.settings.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.settings.ImageOffset = new System.Drawing.Point(0, 0);
-            this.settings.ImageRotate = 0F;
-            this.settings.ImageSize = new System.Drawing.Size(67, 67);
-            this.settings.Location = new System.Drawing.Point(0, 3);
-            this.settings.Name = "settings";
-            this.settings.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.settings.Size = new System.Drawing.Size(75, 76);
-            this.settings.TabIndex = 23;
-            this.settings.Click += new System.EventHandler(this.settings_Click);
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox4.TabIndex = 17;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-            // exit
-            // 
-            this.exit.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.exit.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.exit.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.exit.ImageOffset = new System.Drawing.Point(0, 0);
-            this.exit.ImageRotate = 0F;
-            this.exit.ImageSize = new System.Drawing.Size(67, 67);
-            this.exit.Location = new System.Drawing.Point(0, 3);
-            this.exit.Name = "exit";
-            this.exit.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.exit.Size = new System.Drawing.Size(75, 76);
-            this.exit.TabIndex = 23;
-            this.exit.Click += new System.EventHandler(this.exit_Click);
-            // 
-            // guna2PictureBox1
-            // 
-            this.guna2PictureBox1.ImageRotate = 0F;
-            this.guna2PictureBox1.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox1.Name = "guna2PictureBox1";
-            this.guna2PictureBox1.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox1.TabIndex = 17;
-            this.guna2PictureBox1.TabStop = false;
-            // 
-            // guna2PictureBox12
-            // 
-            this.guna2PictureBox12.Image = global::AirplaneTiket.Properties.Resources.menu;
-            this.guna2PictureBox12.ImageRotate = 0F;
-            this.guna2PictureBox12.Location = new System.Drawing.Point(9, 9);
-            this.guna2PictureBox12.Name = "guna2PictureBox12";
-            this.guna2PictureBox12.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox12.TabIndex = 0;
-            this.guna2PictureBox12.TabStop = false;
-            // 
-            // guna2PictureBox13
-            // 
-            this.guna2PictureBox13.ImageRotate = 0F;
-            this.guna2PictureBox13.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox13.Name = "guna2PictureBox13";
-            this.guna2PictureBox13.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox13.TabIndex = 17;
-            this.guna2PictureBox13.TabStop = false;
-            // 
-            // guna2PictureBox14
-            // 
-            this.guna2PictureBox14.ImageRotate = 0F;
-            this.guna2PictureBox14.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox14.Name = "guna2PictureBox14";
-            this.guna2PictureBox14.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox14.TabIndex = 17;
-            this.guna2PictureBox14.TabStop = false;
-            // 
-            // guna2PictureBox15
-            // 
-            this.guna2PictureBox15.ImageRotate = 0F;
-            this.guna2PictureBox15.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox15.Name = "guna2PictureBox15";
-            this.guna2PictureBox15.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox15.TabIndex = 17;
-            this.guna2PictureBox15.TabStop = false;
-            // 
-            // guna2PictureBox16
-            // 
-            this.guna2PictureBox16.ImageRotate = 0F;
-            this.guna2PictureBox16.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox16.Name = "guna2PictureBox16";
-            this.guna2PictureBox16.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox16.TabIndex = 17;
-            this.guna2PictureBox16.TabStop = false;
-            // 
-            // guna2PictureBox17
-            // 
-            this.guna2PictureBox17.ImageRotate = 0F;
-            this.guna2PictureBox17.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox17.Name = "guna2PictureBox17";
-            this.guna2PictureBox17.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox17.TabIndex = 17;
-            this.guna2PictureBox17.TabStop = false;
-            // 
-            // guna2PictureBox18
-            // 
-            this.guna2PictureBox18.ImageRotate = 0F;
-            this.guna2PictureBox18.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox18.Name = "guna2PictureBox18";
-            this.guna2PictureBox18.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox18.TabIndex = 17;
-            this.guna2PictureBox18.TabStop = false;
-            // 
-            // guna2PictureBox19
-            // 
-            this.guna2PictureBox19.ImageRotate = 0F;
-            this.guna2PictureBox19.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox19.Name = "guna2PictureBox19";
-            this.guna2PictureBox19.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox19.TabIndex = 17;
-            this.guna2PictureBox19.TabStop = false;
-            // 
-            // guna2PictureBox20
-            // 
-            this.guna2PictureBox20.ImageRotate = 0F;
-            this.guna2PictureBox20.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox20.Name = "guna2PictureBox20";
-            this.guna2PictureBox20.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox20.TabIndex = 17;
-            this.guna2PictureBox20.TabStop = false;
-            // 
-            // guna2PictureBox21
-            // 
-            this.guna2PictureBox21.ImageRotate = 0F;
-            this.guna2PictureBox21.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox21.Name = "guna2PictureBox21";
-            this.guna2PictureBox21.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox21.TabIndex = 17;
-            this.guna2PictureBox21.TabStop = false;
-            // 
-            // guna2PictureBox22
-            // 
-            this.guna2PictureBox22.ImageRotate = 0F;
-            this.guna2PictureBox22.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox22.Name = "guna2PictureBox22";
-            this.guna2PictureBox22.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox22.TabIndex = 17;
-            this.guna2PictureBox22.TabStop = false;
-            // 
-            // guna2PictureBox23
-            // 
-            this.guna2PictureBox23.Image = global::AirplaneTiket.Properties.Resources.menu;
-            this.guna2PictureBox23.ImageRotate = 0F;
-            this.guna2PictureBox23.Location = new System.Drawing.Point(9, 9);
-            this.guna2PictureBox23.Name = "guna2PictureBox23";
-            this.guna2PictureBox23.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox23.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox23.TabIndex = 0;
-            this.guna2PictureBox23.TabStop = false;
-            // 
-            // guna2PictureBox24
-            // 
-            this.guna2PictureBox24.ImageRotate = 0F;
-            this.guna2PictureBox24.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox24.Name = "guna2PictureBox24";
-            this.guna2PictureBox24.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox24.TabIndex = 17;
-            this.guna2PictureBox24.TabStop = false;
-            // 
-            // guna2PictureBox25
-            // 
-            this.guna2PictureBox25.ImageRotate = 0F;
-            this.guna2PictureBox25.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox25.Name = "guna2PictureBox25";
-            this.guna2PictureBox25.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox25.TabIndex = 17;
-            this.guna2PictureBox25.TabStop = false;
-            // 
-            // guna2PictureBox26
-            // 
-            this.guna2PictureBox26.ImageRotate = 0F;
-            this.guna2PictureBox26.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox26.Name = "guna2PictureBox26";
-            this.guna2PictureBox26.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox26.TabIndex = 17;
-            this.guna2PictureBox26.TabStop = false;
-            // 
-            // guna2PictureBox27
-            // 
-            this.guna2PictureBox27.ImageRotate = 0F;
-            this.guna2PictureBox27.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox27.Name = "guna2PictureBox27";
-            this.guna2PictureBox27.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox27.TabIndex = 17;
-            this.guna2PictureBox27.TabStop = false;
-            // 
-            // guna2PictureBox28
-            // 
-            this.guna2PictureBox28.ImageRotate = 0F;
-            this.guna2PictureBox28.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox28.Name = "guna2PictureBox28";
-            this.guna2PictureBox28.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox28.TabIndex = 17;
-            this.guna2PictureBox28.TabStop = false;
-            // 
-            // guna2PictureBox29
-            // 
-            this.guna2PictureBox29.ImageRotate = 0F;
-            this.guna2PictureBox29.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox29.Name = "guna2PictureBox29";
-            this.guna2PictureBox29.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox29.TabIndex = 17;
-            this.guna2PictureBox29.TabStop = false;
-            // 
-            // guna2PictureBox30
-            // 
-            this.guna2PictureBox30.ImageRotate = 0F;
-            this.guna2PictureBox30.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox30.Name = "guna2PictureBox30";
-            this.guna2PictureBox30.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox30.TabIndex = 17;
-            this.guna2PictureBox30.TabStop = false;
-            // 
-            // guna2PictureBox31
-            // 
-            this.guna2PictureBox31.ImageRotate = 0F;
-            this.guna2PictureBox31.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox31.Name = "guna2PictureBox31";
-            this.guna2PictureBox31.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox31.TabIndex = 17;
-            this.guna2PictureBox31.TabStop = false;
-            // 
-            // guna2PictureBox32
-            // 
-            this.guna2PictureBox32.ImageRotate = 0F;
-            this.guna2PictureBox32.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox32.Name = "guna2PictureBox32";
-            this.guna2PictureBox32.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox32.TabIndex = 17;
-            this.guna2PictureBox32.TabStop = false;
-            // 
-            // guna2PictureBox33
-            // 
-            this.guna2PictureBox33.ImageRotate = 0F;
-            this.guna2PictureBox33.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox33.Name = "guna2PictureBox33";
-            this.guna2PictureBox33.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox33.TabIndex = 17;
-            this.guna2PictureBox33.TabStop = false;
-            // 
-            // guna2PictureBox34
-            // 
-            this.guna2PictureBox34.Image = global::AirplaneTiket.Properties.Resources.menu;
-            this.guna2PictureBox34.ImageRotate = 0F;
-            this.guna2PictureBox34.Location = new System.Drawing.Point(9, 9);
-            this.guna2PictureBox34.Name = "guna2PictureBox34";
-            this.guna2PictureBox34.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox34.SizeMode = System.Windows.Forms.PictureBoxSizeMode.StretchImage;
-            this.guna2PictureBox34.TabIndex = 0;
-            this.guna2PictureBox34.TabStop = false;
-            // 
-            // guna2PictureBox35
-            // 
-            this.guna2PictureBox35.ImageRotate = 0F;
-            this.guna2PictureBox35.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox35.Name = "guna2PictureBox35";
-            this.guna2PictureBox35.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox35.TabIndex = 17;
-            this.guna2PictureBox35.TabStop = false;
-            // 
-            // guna2PictureBox36
-            // 
-            this.guna2PictureBox36.ImageRotate = 0F;
-            this.guna2PictureBox36.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox36.Name = "guna2PictureBox36";
-            this.guna2PictureBox36.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox36.TabIndex = 17;
-            this.guna2PictureBox36.TabStop = false;
-            // 
-            // guna2PictureBox37
-            // 
-            this.guna2PictureBox37.ImageRotate = 0F;
-            this.guna2PictureBox37.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox37.Name = "guna2PictureBox37";
-            this.guna2PictureBox37.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox37.TabIndex = 17;
-            this.guna2PictureBox37.TabStop = false;
-            // 
-            // guna2PictureBox38
-            // 
-            this.guna2PictureBox38.ImageRotate = 0F;
-            this.guna2PictureBox38.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox38.Name = "guna2PictureBox38";
-            this.guna2PictureBox38.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox38.TabIndex = 17;
-            this.guna2PictureBox38.TabStop = false;
-            // 
-            // guna2PictureBox39
-            // 
-            this.guna2PictureBox39.ImageRotate = 0F;
-            this.guna2PictureBox39.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox39.Name = "guna2PictureBox39";
-            this.guna2PictureBox39.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox39.TabIndex = 17;
-            this.guna2PictureBox39.TabStop = false;
-            // 
-            // guna2PictureBox40
-            // 
-            this.guna2PictureBox40.ImageRotate = 0F;
-            this.guna2PictureBox40.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox40.Name = "guna2PictureBox40";
-            this.guna2PictureBox40.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox40.TabIndex = 17;
-            this.guna2PictureBox40.TabStop = false;
-            // 
-            // guna2PictureBox41
-            // 
-            this.guna2PictureBox41.ImageRotate = 0F;
-            this.guna2PictureBox41.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox41.Name = "guna2PictureBox41";
-            this.guna2PictureBox41.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox41.TabIndex = 17;
-            this.guna2PictureBox41.TabStop = false;
-            // 
-            // guna2PictureBox42
-            // 
-            this.guna2PictureBox42.ImageRotate = 0F;
-            this.guna2PictureBox42.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox42.Name = "guna2PictureBox42";
-            this.guna2PictureBox42.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox42.TabIndex = 17;
-            this.guna2PictureBox42.TabStop = false;
-            // 
-            // guna2PictureBox43
-            // 
-            this.guna2PictureBox43.ImageRotate = 0F;
-            this.guna2PictureBox43.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox43.Name = "guna2PictureBox43";
-            this.guna2PictureBox43.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox43.TabIndex = 17;
-            this.guna2PictureBox43.TabStop = false;
-            // 
-            // guna2PictureBox44
-            // 
-            this.guna2PictureBox44.ImageRotate = 0F;
-            this.guna2PictureBox44.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox44.Name = "guna2PictureBox44";
-            this.guna2PictureBox44.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox44.TabIndex = 17;
-            this.guna2PictureBox44.TabStop = false;
+            // ControlPanel
+            // 
+            this.ControlPanel.Location = new System.Drawing.Point(95, 6);
+            this.ControlPanel.Name = "ControlPanel";
+            this.ControlPanel.Size = new System.Drawing.Size(408, 560);
+            this.ControlPanel.TabIndex = 19;
+            this.ControlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ControlPanel_Paint);
             // 
             // Tiket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(504, 562);
-            this.Controls.Add(this.buyTiket1);
             this.Controls.Add(this.flowLayoutPanel1);
             this.Controls.Add(this.ControlPanel);
             this.Controls.Add(this.flowLayoutPanel3);
@@ -1700,78 +1692,112 @@ namespace AirplaneTiket
             this.Name = "Tiket";
             this.Text = "Заказать билет";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Tiket_FormClosed);
+            this.Load += new System.EventHandler(this.Tiket_Load);
             this.flowLayoutPanel3.ResumeLayout(false);
             this.guna2Panel13.ResumeLayout(false);
             this.guna2Panel13.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
             this.flowLayoutPanel4.ResumeLayout(false);
             this.guna2Panel14.ResumeLayout(false);
             this.guna2Panel14.PerformLayout();
             this.guna2Panel15.ResumeLayout(false);
             this.guna2Panel15.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
             this.guna2Panel16.ResumeLayout(false);
             this.guna2Panel16.PerformLayout();
             this.guna2Panel17.ResumeLayout(false);
             this.guna2Panel17.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
             this.guna2Panel18.ResumeLayout(false);
             this.guna2Panel18.PerformLayout();
             this.guna2Panel19.ResumeLayout(false);
             this.guna2Panel19.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).EndInit();
             this.guna2Panel20.ResumeLayout(false);
             this.guna2Panel20.PerformLayout();
             this.guna2Panel21.ResumeLayout(false);
             this.guna2Panel21.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).EndInit();
             this.guna2Panel22.ResumeLayout(false);
             this.guna2Panel22.PerformLayout();
             this.guna2Panel23.ResumeLayout(false);
             this.guna2Panel23.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
             this.flowLayoutPanel5.ResumeLayout(false);
             this.guna2Panel24.ResumeLayout(false);
             this.guna2Panel24.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
             this.flowLayoutPanel6.ResumeLayout(false);
             this.guna2Panel25.ResumeLayout(false);
             this.guna2Panel25.PerformLayout();
             this.guna2Panel26.ResumeLayout(false);
             this.guna2Panel26.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).EndInit();
             this.guna2Panel27.ResumeLayout(false);
             this.guna2Panel27.PerformLayout();
             this.guna2Panel28.ResumeLayout(false);
             this.guna2Panel28.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox27)).EndInit();
             this.guna2Panel29.ResumeLayout(false);
             this.guna2Panel29.PerformLayout();
             this.guna2Panel30.ResumeLayout(false);
             this.guna2Panel30.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox28)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox29)).EndInit();
             this.guna2Panel31.ResumeLayout(false);
             this.guna2Panel31.PerformLayout();
             this.guna2Panel32.ResumeLayout(false);
             this.guna2Panel32.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox30)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox31)).EndInit();
             this.guna2Panel33.ResumeLayout(false);
             this.guna2Panel33.PerformLayout();
             this.guna2Panel34.ResumeLayout(false);
             this.guna2Panel34.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox32)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox33)).EndInit();
             this.flowLayoutPanel7.ResumeLayout(false);
             this.guna2Panel35.ResumeLayout(false);
             this.guna2Panel35.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox34)).EndInit();
             this.flowLayoutPanel8.ResumeLayout(false);
             this.guna2Panel36.ResumeLayout(false);
             this.guna2Panel36.PerformLayout();
             this.guna2Panel37.ResumeLayout(false);
             this.guna2Panel37.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox35)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox36)).EndInit();
             this.guna2Panel38.ResumeLayout(false);
             this.guna2Panel38.PerformLayout();
             this.guna2Panel39.ResumeLayout(false);
             this.guna2Panel39.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox37)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox38)).EndInit();
             this.guna2Panel40.ResumeLayout(false);
             this.guna2Panel40.PerformLayout();
             this.guna2Panel41.ResumeLayout(false);
             this.guna2Panel41.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox39)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox40)).EndInit();
             this.guna2Panel42.ResumeLayout(false);
             this.guna2Panel42.PerformLayout();
             this.guna2Panel43.ResumeLayout(false);
             this.guna2Panel43.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox41)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox42)).EndInit();
             this.guna2Panel44.ResumeLayout(false);
             this.guna2Panel44.PerformLayout();
             this.guna2Panel45.ResumeLayout(false);
             this.guna2Panel45.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox43)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox44)).EndInit();
             this.flowLayoutPanel1.ResumeLayout(false);
             this.guna2Panel3.ResumeLayout(false);
             this.guna2Panel3.PerformLayout();
@@ -1780,60 +1806,27 @@ namespace AirplaneTiket
             this.guna2Panel46.PerformLayout();
             this.guna2Panel47.ResumeLayout(false);
             this.guna2Panel47.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
             this.guna2Panel4.ResumeLayout(false);
             this.guna2Panel4.PerformLayout();
             this.guna2Panel5.ResumeLayout(false);
             this.guna2Panel5.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
             this.guna2Panel2.ResumeLayout(false);
             this.guna2Panel2.PerformLayout();
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
             this.guna2Panel7.ResumeLayout(false);
             this.guna2Panel7.PerformLayout();
             this.guna2Panel8.ResumeLayout(false);
             this.guna2Panel8.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.guna2Panel11.ResumeLayout(false);
             this.guna2Panel11.PerformLayout();
             this.guna2Panel12.ResumeLayout(false);
             this.guna2Panel12.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox12)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox13)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox14)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox15)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox16)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox17)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox18)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox19)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox20)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox21)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox22)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox23)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox24)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox25)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox26)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox27)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox28)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox29)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox30)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox31)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox32)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox33)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox34)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox35)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox36)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox37)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox38)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox39)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox40)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox41)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox42)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox43)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox44)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -1945,7 +1938,6 @@ namespace AirplaneTiket
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox43;
         private System.Windows.Forms.Label label46;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox44;
-        private Guna.UI2.WinForms.Guna2Panel ControlPanel;
         private System.Windows.Forms.FlowLayoutPanel flowLayoutPanel1;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel3;
         private Guna.UI2.WinForms.Guna2ImageButton menu;
@@ -1981,7 +1973,7 @@ namespace AirplaneTiket
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label10;
-        private BuyTiket buyTiket1;
+        private Guna.UI2.WinForms.Guna2Panel ControlPanel;
     }
 }
 

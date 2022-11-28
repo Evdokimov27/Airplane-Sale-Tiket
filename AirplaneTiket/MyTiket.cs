@@ -1,12 +1,15 @@
-﻿using System;
+﻿using MySql.Data.MySqlClient;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Data.SqlClient;
 using System.Drawing;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using static Guna.UI2.Native.WinApi;
 
 namespace AirplaneTiket
 {
@@ -15,6 +18,53 @@ namespace AirplaneTiket
         public MyTiket()
         {
             InitializeComponent();
+            
+        }
+
+        private void MyTiket_Load(object sender, EventArgs e)
+        {
+            LoadData();
+        }
+        private void LoadData()
+        {
+
+            MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+
+            conn.Open();
+
+            string query = "SELECT departure, arrival, time_departure, time_arrival, tiket_price, confirm FROM `tiket` where user_id = @userid";
+
+            MySqlCommand command = new MySqlCommand(query, conn);
+            command.Parameters.Add("@userid", MySqlDbType.Int32, 11);
+            command.Parameters["@userid"].Value = Tiket.sets.id;
+            MySqlDataReader reader = command.ExecuteReader();
+
+            List<string[]> data = new List<string[]>();
+
+            while (reader.Read())
+            {
+                data.Add(new string[6]);
+
+                data[data.Count - 1][0] = reader[0].ToString();
+                data[data.Count - 1][1] = reader[1].ToString();
+                data[data.Count - 1][2] = reader[2].ToString();
+                data[data.Count - 1][3] = reader[3].ToString();
+                data[data.Count - 1][4] = reader[4].ToString();
+                data[data.Count - 1][5] = Convert.ToBoolean(reader[5]).ToString();
+
+            }
+
+            reader.Close();
+
+            conn.Close();
+
+            foreach (string[] s in data)
+                guna2DataGridView1.Rows.Add(s);
+        }
+
+        private void guna2Button1_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -137,6 +137,7 @@ namespace AirplaneTiket
             this.Controls.Add(this.calendar);
             this.Name = "BuyTiket";
             this.Size = new System.Drawing.Size(408, 560);
+            this.Load += new System.EventHandler(this.BuyTiket_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

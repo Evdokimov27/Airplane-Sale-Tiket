@@ -21,7 +21,7 @@ namespace AirplaneTiket
 {
     public partial class Tiket : Form
     {
-
+        public static Settings sets = new Settings();
         bool slide = false;
 
         
@@ -67,7 +67,6 @@ namespace AirplaneTiket
 
         private void settings_Click(object sender, EventArgs e)
         {
-            Settings sets = new Settings();
             addUserController(sets);
         }
 
@@ -95,6 +94,14 @@ namespace AirplaneTiket
             timer1.Start();
         }
 
+        private void Tiket_Load(object sender, EventArgs e)
+        {
 
+        }
+
+        private void ControlPanel_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
     }
 }
