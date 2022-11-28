@@ -79,9 +79,10 @@ namespace AirplaneTiket
        
            conn.Open();
        
-           string query = "UPDATE `tiket` SET `confirm` = " + 0 + " WHERE `tiket`.`id_tiket` = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
+           string query = "UPDATE `tiket` SET `confirm` = " + Convert.ToInt32(ch3.Value) + " WHERE `tiket`.`id_tiket` = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
            MySqlCommand command = new MySqlCommand(query, conn);
-           command.ExecuteNonQuery();
+            //command.ExecuteNonQuery();
+            MessageBox.Show(Convert.ToInt32(ch3.Value).ToString());
 
         }
         private void guna2Button1_Click(object sender, EventArgs e)

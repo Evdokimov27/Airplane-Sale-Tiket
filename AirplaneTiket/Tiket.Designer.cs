@@ -1973,7 +1973,7 @@ namespace AirplaneTiket
         private System.Windows.Forms.Label label9;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox1;
         private System.Windows.Forms.Label label10;
-        private Guna.UI2.WinForms.Guna2Panel ControlPanel;
+        public Guna.UI2.WinForms.Guna2Panel ControlPanel;
     }
 }
 

@@ -4,6 +4,7 @@ using GMap.NET.MapProviders;
 using GMap.NET.WindowsForms;
 using GMap.NET.WindowsForms.Markers;
 using GMap.NET.WindowsForms.ToolTips;
+using Guna.UI2.WinForms;
 using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
@@ -19,6 +20,7 @@ namespace AirplaneTiket
 {
     public partial class BuyTiket : UserControl
     {
+        MyTiket mytkt = new MyTiket();
         double x1, y1, x2, y2, distanceBetween, km, km1, km2;
         private void gmap_OnMarkerClick(GMapMarker item, MouseEventArgs e)
         {
@@ -63,9 +65,8 @@ namespace AirplaneTiket
         private void button4_Click(object sender, EventArgs e)
         {
            if (button1.Text != "Откуда" && button2.Text != "Куда" && button3.Text != "Дата")
-           {
-               
-               MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+            { 
+                MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
                conn.Open();
                string sql = "INSERT INTO `tiket` (`id_tiket`, `user_id`, `departure`, `arrival`, `time_departure`, `time_arrival`, `tiket_price`, `confirm`, `airplane_id_airplane`) " +
                    "VALUES (NULL, @userid ,'" + button1.Text + "', '" + button2.Text + "', '" + button3.Text + "', '2022-11-08 11:03:39.000000', '" + km2 * 500 + "', '0', '0');";
@@ -73,8 +74,14 @@ namespace AirplaneTiket
           
                id.Parameters.Add("@userid", MySqlDbType.Int32, 11);
                id.Parameters["@userid"].Value = Tiket.sets.id;
+
+               id.ExecuteNonQuery();
                conn.Close();
-           }
+               MessageBox.Show("Билет заказан!");
+                Guna2Panel someForm = (Guna2Panel)this.Parent;
+                someForm.Controls.Clear();
+                someForm.Controls.Add(mytkt);
+            }
            else if (button1.Text == "Откуда") MessageBox.Show("Выберите место отправления");
            else if (button2.Text == "Куда") MessageBox.Show("Выберите место прибытия");
            else if (button3.Text == "Дата") MessageBox.Show("Выберите время отправления");
