@@ -13,15 +13,14 @@ namespace AirplaneTiket
 {
     public partial class Worker : UserControl
     {
+        bd bd = new bd();
         public Worker()
         {
             InitializeComponent();
             LoadData();
         }
 
-        private void Worker_Load(object sender, EventArgs e)
-        {
-        }
+
         private void LoadData()
         {
 
@@ -29,7 +28,7 @@ namespace AirplaneTiket
 
             bd.openBD();
 
-            string query = "SELECT id_tiket, CONCAT(name,' ', family,' ', patronymic), departure, arrival, time_departure, time_arrival, tiket_price, confirm FROM `tiket`,`user` where `id_user` = `user_id`";
+            string query = "SELECT id_tiket, CONCAT( name, ' ', family, ' ', patronymic ) , departure, arrival, time_departure, `flight`.id_flight, confirm FROM `tiket` , `user` , `flight` WHERE `flight`.`id_flight` = `tiket`.`id_flight` AND `user`.`id_user` = `tiket`.`user_id` GROUP BY id_tiket";
             MySqlCommand command = new MySqlCommand(query, bd.conn);
             MySqlDataReader reader = command.ExecuteReader();
 
@@ -37,7 +36,7 @@ namespace AirplaneTiket
 
             while (reader.Read())
             {
-                data.Add(new string[8]);
+                data.Add(new string[7]);
 
                 data[data.Count - 1][0] = reader[0].ToString();
                 data[data.Count - 1][1] = reader[1].ToString();
@@ -45,11 +44,9 @@ namespace AirplaneTiket
                 data[data.Count - 1][3] = reader[3].ToString();
                 data[data.Count - 1][4] = reader[4].ToString();
                 data[data.Count - 1][5] = reader[5].ToString();
-                data[data.Count - 1][6]= reader[6].ToString();
-                data[data.Count - 1][7] = Convert.ToBoolean(reader[7]).ToString();
+                data[data.Count - 1][6] = Convert.ToBoolean(reader[6]).ToString();
 
             }
-
             reader.Close();
 
             bd.closeBD();
@@ -57,10 +54,17 @@ namespace AirplaneTiket
             foreach (string[] s in data)
             guna2DataGridView1.Rows.Add(s);
         }
+        private void deleteTiket()
+        {
+            bd.openBD();
+            string query = "DELETE FROM `tiket` WHERE id_tiket = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
+            MySqlCommand command = new MySqlCommand(query, bd.conn);
+            command.ExecuteNonQuery();
+        }
         private void getCheckBox()
         {
             DataGridViewCheckBoxCell ch3 = new DataGridViewCheckBoxCell();
-            ch3 = (DataGridViewCheckBoxCell)guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[7];
+            ch3 = (DataGridViewCheckBoxCell)guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[6];
             if (ch3.Value == null)
                 ch3.Value = false;
 
@@ -73,31 +77,34 @@ namespace AirplaneTiket
                     ch3.Value = true;
                     break;
             }
-
-
-           bd bd = new bd();
-       
-           bd.openBD();
-       
-           string query = "UPDATE `tiket` SET `confirm` = " + Convert.ToInt32(ch3.Value) + " WHERE `tiket`.`id_tiket` = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
-           MySqlCommand command = new MySqlCommand(query, bd.conn);
-            //command.ExecuteNonQuery();
-            MessageBox.Show(Convert.ToInt32(ch3.Value).ToString());
-
+            bd.openBD();
+            string query = "UPDATE `tiket` SET `confirm` = " + Convert.ToInt32(ch3.Value) + " WHERE `tiket`.`id_tiket` = " + guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString();
+            MySqlCommand command = new MySqlCommand(query, bd.conn);
+            command.ExecuteNonQuery();
+            guna2DataGridView1.Rows.Clear();
+            LoadData();
         }
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            guna2DataGridView1.Rows.Clear();
+            LoadData();
         }
 
         private void guna2DataGridView1_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            getCheckBox();
-        }
-
-        private void guna2DataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-
+            Action dialog = new Action();
+            dialog.ShowDialog();
+            switch (dialog.click)
+            {
+                case 1:
+                    getCheckBox();
+                    break;
+                case 2:
+                    deleteTiket();
+                    break;
+            }
+            guna2DataGridView1.Rows.Clear();
+            LoadData();
         }
     }
 }

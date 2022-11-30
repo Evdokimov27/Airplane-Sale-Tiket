@@ -3,6 +3,8 @@ using System.Text;
 using System.Windows.Forms;
 using MySql.Data.MySqlClient;
 using System.Security.Cryptography;
+using System.Diagnostics;
+using System.Reflection;
 
 namespace AirplaneTiket
 {
@@ -10,6 +12,7 @@ namespace AirplaneTiket
     {
         bool hide = true;
         Tiket tiket = new Tiket();
+        Profile prof= new Profile();
         BuyTiket buy = new BuyTiket();
         Admin admin = new Admin();
         bool enter;
@@ -23,7 +26,6 @@ namespace AirplaneTiket
 
         private void button1_Click(object sender, EventArgs e)
         {
-            
             if (textBox1.Text != "" && textBox2.Text != "")
             {
                 {
@@ -65,10 +67,6 @@ namespace AirplaneTiket
 
 
                     MySqlDataReader user = command.ExecuteReader();
-
-
-
-
                     if (user.HasRows)
                     {
                         user.Close();
@@ -119,6 +117,7 @@ namespace AirplaneTiket
             while (reader.Read())
             {
                 Tiket.sets.id = reader[1].ToString();
+                Tiket.prof.id = Convert.ToInt32(reader[1].ToString());
                 Tiket.sets.name = reader[0].ToString();
             }
             reader.Close();
@@ -129,7 +128,7 @@ namespace AirplaneTiket
         }
         public void AdminP()
         {
-            string sql = "SELECT FIO, specialisation.name_specialisation FROM `worker` JOIN specialisation on worker.specialisation_id_specialisation = specialisation.name_specialisation WHERE `login` = @ulogin or `phone_nomber` = @nomber";
+            string sql = "SELECT FIO, name_specialisation FROM `worker`,`specialisation` WHERE worker.specialisation_id_specialisation = specialisation.id_specialisation and (`login` = @ulogin or `phone_nomber` = @nomber);";
             MySqlCommand name = new MySqlCommand(sql, bd.conn);
             name.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
             name.Parameters["@ulogin"].Value = textBox1.Text;
@@ -139,9 +138,7 @@ namespace AirplaneTiket
             while (reader.Read())
             {
                 admin.fio = reader[0].ToString();
-                admin.spec = reader[1].ToString();
-
-                
+                admin.spec = reader[1].ToString();  
             }
             reader.Close();
             Auth.ActiveForm.Hide();

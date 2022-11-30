@@ -23,7 +23,7 @@ namespace AirplaneTiket
     {
         public MyTiket myTkt = new MyTiket();
         public BuyTiket buyTkt = new BuyTiket();
-        public Profile prof = new Profile();
+        public static Profile prof = new Profile();
         public static Tiket tik = new Tiket();
         public static Settings sets = new Settings();
         public static BuyTiket buytiket = new BuyTiket();

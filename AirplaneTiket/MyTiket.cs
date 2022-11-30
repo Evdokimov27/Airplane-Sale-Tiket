@@ -1,4 +1,5 @@
-﻿using MySql.Data.MySqlClient;
+﻿using Guna.UI2.WinForms;
+using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
@@ -31,7 +32,7 @@ namespace AirplaneTiket
         {
             bd.openBD();
 
-            string query = "SELECT departure, arrival, time_departure, time_arrival, tiket_price, confirm FROM `tiket` where user_id = @userid";
+            string query = "SELECT departure, arrival, time_departure, tiket_price, confirm FROM `tiket`,`flight` WHERE `tiket`.`id_flight` = `flight`.`id_flight` and `tiket`.`user_id` = @userid";
 
             MySqlCommand command = new MySqlCommand(query, bd.conn);
             command.Parameters.Add("@userid", MySqlDbType.Int32, 11);
@@ -39,17 +40,15 @@ namespace AirplaneTiket
             MySqlDataReader reader = command.ExecuteReader();
 
             List<string[]> data = new List<string[]>();
-
             while (reader.Read())
             {
-                data.Add(new string[6]);
+                data.Add(new string[5]);
 
                 data[data.Count - 1][0] = reader[0].ToString();
                 data[data.Count - 1][1] = reader[1].ToString();
                 data[data.Count - 1][2] = reader[2].ToString();
                 data[data.Count - 1][3] = reader[3].ToString();
-                data[data.Count - 1][4] = reader[4].ToString();
-                data[data.Count - 1][5] = Convert.ToBoolean(reader[5]).ToString();
+                data[data.Count - 1][4] = Convert.ToBoolean(reader[4]).ToString();
 
             }
 
@@ -63,7 +62,8 @@ namespace AirplaneTiket
 
         private void guna2Button1_Click(object sender, EventArgs e)
         {
-
+            guna2DataGridView1.Rows.Clear();
+            LoadData();
         }
     }
 }

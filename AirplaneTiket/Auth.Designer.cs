@@ -81,6 +81,7 @@ namespace AirplaneTiket
             this.MinimizeBox = false;
             this.Name = "Auth";
             this.Text = "Авторизация";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Auth_FormClosed);
             this.Load += new System.EventHandler(this.Auth_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).EndInit();
             this.ResumeLayout(false);

@@ -143,7 +143,7 @@ namespace AirplaneTiket
             this.guna2Button1.Name = "guna2Button1";
             this.guna2Button1.Size = new System.Drawing.Size(180, 45);
             this.guna2Button1.TabIndex = 21;
-            this.guna2Button1.Text = "Восстановить пароль";
+            this.guna2Button1.Text = "Сменить пароль";
             this.guna2Button1.Click += new System.EventHandler(this.guna2Button1_Click);
             // 
             // Settings

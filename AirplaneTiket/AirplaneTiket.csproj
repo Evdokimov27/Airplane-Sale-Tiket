@@ -133,13 +133,26 @@
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
     </Compile>
+    <Compile Include="ArrayWork.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArrayWork.Designer.cs">
+      <DependentUpon>ArrayWork.cs</DependentUpon>
+    </Compile>
     <Compile Include="Auth.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Auth.Designer.cs">
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
-    <Compile Include="Class1.cs" />
+    <Compile Include="Connect.cs" />
+    <Compile Include="Action.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include=".Designer.cs">
+      <DependentUpon>Action.cs</DependentUpon>
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="MyTiket.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -210,8 +223,14 @@
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="ArrayWork.resx">
+      <DependentUpon>ArrayWork.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Action.resx">
+      <DependentUpon>Action.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyTiket.resx">
       <DependentUpon>MyTiket.cs</DependentUpon>

@@ -86,6 +86,7 @@ namespace AirplaneTiket
             this.Controls.Add(this.guna2Panel1);
             this.Name = "Admin";
             this.Text = "Admin";
+            this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Admin_FormClosed);
             this.Load += new System.EventHandler(this.Admin_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
