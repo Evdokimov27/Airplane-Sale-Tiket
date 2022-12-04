@@ -149,7 +149,7 @@ namespace AirplaneTiket
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.textBox1);
             this.Name = "RecoverPass";
-            this.Text = "Form1";
+            this.Text = "Восстановление пароля";
             this.ResumeLayout(false);
             this.PerformLayout();
 

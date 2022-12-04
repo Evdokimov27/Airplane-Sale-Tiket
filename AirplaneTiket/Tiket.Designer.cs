@@ -1690,7 +1690,7 @@ namespace AirplaneTiket
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Tiket";
-            this.Text = "Заказать билет";
+            this.Text = "Личный кабинет";
             this.FormClosed += new System.Windows.Forms.FormClosedEventHandler(this.Tiket_FormClosed);
             this.Load += new System.EventHandler(this.Tiket_Load);
             this.flowLayoutPanel3.ResumeLayout(false);

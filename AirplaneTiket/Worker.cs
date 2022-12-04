@@ -28,7 +28,7 @@ namespace AirplaneTiket
 
             bd.openBD();
 
-            string query = "SELECT id_tiket, CONCAT( name, ' ', family, ' ', patronymic ) , departure, arrival, time_departure, `flight`.id_flight, confirm FROM `tiket` , `user` , `flight` WHERE `flight`.`id_flight` = `tiket`.`id_flight` AND `user`.`id_user` = `tiket`.`user_id` GROUP BY id_tiket";
+            string query = "SELECT id_tiket, FIO , departure, arrival, time_departure, `flight`.id_flight, confirm FROM `tiket` , `user` , `flight` WHERE `flight`.`id_flight` = `tiket`.`id_flight` AND `user`.`id_user` = `tiket`.`user_id` GROUP BY id_tiket";
             MySqlCommand command = new MySqlCommand(query, bd.conn);
             MySqlDataReader reader = command.ExecuteReader();
 
@@ -105,6 +105,11 @@ namespace AirplaneTiket
             }
             guna2DataGridView1.Rows.Clear();
             LoadData();
+        }
+
+        private void Worker_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }

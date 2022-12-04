@@ -170,6 +170,7 @@
             this.Controls.Add(this.guna2DataGridView1);
             this.Name = "Worker";
             this.Size = new System.Drawing.Size(661, 486);
+            this.Load += new System.EventHandler(this.Worker_Load);
             ((System.ComponentModel.ISupportInitialize)(this.guna2DataGridView1)).EndInit();
             this.ResumeLayout(false);
 

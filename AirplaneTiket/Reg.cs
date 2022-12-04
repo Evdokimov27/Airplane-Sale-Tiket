@@ -55,17 +55,15 @@ namespace AirplaneTiket
                 if (noreg == 1)
                 {
                     bd.openBD();
-                    string sql = "INSERT INTO `user` (`id_user`, `login`, `pass`, `name`, `family`, `patronymic`, `gender`, `phone_nomber`, `mail`, `serial_pasport`, `nomber_pasport`) " +
-                                            "VALUES (NULL, @ulogin, @upass, @uname, @ufamily, @upatron, @gender, @unomber, @email, '0000', '000000')";
+                    string sql = "INSERT INTO `user` (`id_user`, `login`, `pass`, `FIO`, `gender`, `phone_nomber`, `mail`, `serial_pasport`, `nomber_pasport`) " +
+                                            "VALUES (NULL, @ulogin, @upass, @fio, @gender, @unomber, @email, '0000', '000000')";
 
 
                     MySqlCommand command = new MySqlCommand(sql, bd.conn);
                     command.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
                     command.Parameters.Add("@upass", MySqlDbType.VarChar, 25);
                     command.Parameters.Add("@unomber", MySqlDbType.VarChar, 11);
-                    command.Parameters.Add("@uname", MySqlDbType.VarChar, 25);
-                    command.Parameters.Add("@ufamily", MySqlDbType.VarChar, 25);
-                    command.Parameters.Add("@upatron", MySqlDbType.VarChar, 25);
+                    command.Parameters.Add("@fio", MySqlDbType.VarChar, 45);
                     command.Parameters.Add("@email", MySqlDbType.VarChar, 25);
                     command.Parameters.Add("@gender", MySqlDbType.VarChar, 25);
 
@@ -74,9 +72,7 @@ namespace AirplaneTiket
                     command.Parameters["@ulogin"].Value = guna2TextBox1.Text;
                     command.Parameters["@upass"].Value = GetHashMD5(guna2TextBox2.Text);
                     command.Parameters["@unomber"].Value = guna2TextBox3.Text;
-                    command.Parameters["@uname"].Value = guna2TextBox7.Text;
-                    command.Parameters["@ufamily"].Value = guna2TextBox6.Text;
-                    command.Parameters["@upatron"].Value = guna2TextBox5.Text;
+                    command.Parameters["@fio"].Value = guna2TextBox7.Text + " " + guna2TextBox6.Text + " " + guna2TextBox5.Text;
                     command.Parameters["@email"].Value = guna2TextBox4.Text;
 
                     reg = command.ExecuteNonQuery();

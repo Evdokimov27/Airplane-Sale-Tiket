@@ -30,7 +30,7 @@ namespace AirplaneTiket
             {
                 {
                     bd.openBD();
-                    string admin = "SELECT * FROM `worker` WHERE `password`= @upass and `login` = @ulogin or phone_nomber = @nomber";
+                    string admin = "SELECT * FROM `worker` WHERE `password`= @upass and (`login` = @ulogin or phone_nomber = @nomber)";
                     MySqlCommand adm_command = new MySqlCommand(admin, bd.conn);
 
                     adm_command.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
@@ -54,7 +54,7 @@ namespace AirplaneTiket
                 }
                 {
                     bd.openBD();
-                    string sql = "SELECT * FROM `user` WHERE `pass`= @upass and `login` = @ulogin or phone_nomber = @nomber";
+                    string sql = "SELECT * FROM `user` WHERE `pass`= @upass and (`login` = @ulogin or phone_nomber = @nomber)";
                     MySqlCommand command = new MySqlCommand(sql, bd.conn);
 
 

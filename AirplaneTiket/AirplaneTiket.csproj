@@ -127,11 +127,41 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Action.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Action.Designer.cs">
+      <DependentUpon>Action.cs</DependentUpon>
+    </Compile>
     <Compile Include="Admin.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="Admin.Designer.cs">
       <DependentUpon>Admin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayAirs.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArrayAirs.Designer.cs">
+      <DependentUpon>ArrayAirs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayFlight.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArrayFlight.Designer.cs">
+      <DependentUpon>ArrayFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArraySpec.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArraySpec.Designer.cs">
+      <DependentUpon>ArraySpec.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ArrayUser.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="ArrayUser.Designer.cs">
+      <DependentUpon>ArrayUser.cs</DependentUpon>
     </Compile>
     <Compile Include="ArrayWork.cs">
       <SubType>UserControl</SubType>
@@ -146,12 +176,29 @@
       <DependentUpon>Auth.cs</DependentUpon>
     </Compile>
     <Compile Include="Connect.cs" />
-    <Compile Include="Action.cs">
+    <Compile Include="InsertAirs.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include=".Designer.cs">
-      <DependentUpon>Action.cs</DependentUpon>
+    <Compile Include="InsertAirs.Designer.cs">
+      <DependentUpon>InsertAirs.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertFlight.cs">
       <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertFlight.Designer.cs">
+      <DependentUpon>InsertFlight.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertUser.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertUser.Designer.cs">
+      <DependentUpon>InsertUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="InsertWorker.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="InsertWorker.Designer.cs">
+      <DependentUpon>InsertWorker.cs</DependentUpon>
     </Compile>
     <Compile Include="MyTiket.cs">
       <SubType>UserControl</SubType>
@@ -220,8 +267,23 @@
     <Compile Include="Worker.Designer.cs">
       <DependentUpon>Worker.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Action.resx">
+      <DependentUpon>Action.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Admin.resx">
       <DependentUpon>Admin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayAirs.resx">
+      <DependentUpon>ArrayAirs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayFlight.resx">
+      <DependentUpon>ArrayFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArraySpec.resx">
+      <DependentUpon>ArraySpec.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ArrayUser.resx">
+      <DependentUpon>ArrayUser.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="ArrayWork.resx">
       <DependentUpon>ArrayWork.cs</DependentUpon>
@@ -229,8 +291,17 @@
     <EmbeddedResource Include="Auth.resx">
       <DependentUpon>Auth.cs</DependentUpon>
     </EmbeddedResource>
-    <EmbeddedResource Include="Action.resx">
-      <DependentUpon>Action.cs</DependentUpon>
+    <EmbeddedResource Include="InsertAirs.resx">
+      <DependentUpon>InsertAirs.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertFlight.resx">
+      <DependentUpon>InsertFlight.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertUser.resx">
+      <DependentUpon>InsertUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="InsertWorker.resx">
+      <DependentUpon>InsertWorker.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MyTiket.resx">
       <DependentUpon>MyTiket.cs</DependentUpon>
