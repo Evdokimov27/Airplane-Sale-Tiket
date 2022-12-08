@@ -33,5 +33,16 @@ namespace AirplaneTiket
         {
             this.Close();
         }
+
+        private void Action_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button4_Click(object sender, EventArgs e)
+        {
+            click = 3;
+            this.Close();
+        }
     }
 }

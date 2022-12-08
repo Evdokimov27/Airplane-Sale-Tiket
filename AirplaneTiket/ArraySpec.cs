@@ -77,7 +77,7 @@ namespace AirplaneTiket
 
             bd.openBD();
 
-            string query = "UPDATE `evdokCvc`.`worker` SET `name_specialisation` = @spec where id_specialisation = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
+            string query = "UPDATE `evdokCvc`.`specialisation` SET `name_specialisation` = @spec where id_specialisation = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
             MySqlCommand command = new MySqlCommand(query, bd.conn);
 
             command.Parameters.Add("@spec", MySqlDbType.VarChar, 45);
@@ -89,7 +89,6 @@ namespace AirplaneTiket
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(guna2DataGridView1.CurrentRow.Index.ToString());
             DialogResult resualt = MessageBox.Show("Подтвердить удаление?", "Удалить", MessageBoxButtons.YesNo);
             if (resualt == DialogResult.Yes)
             {

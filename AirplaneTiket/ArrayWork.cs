@@ -97,7 +97,6 @@ namespace AirplaneTiket
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(guna2DataGridView1.CurrentRow.Index.ToString());
                 DialogResult resualt = MessageBox.Show("Подтвердить удаление?", "Удалить", MessageBoxButtons.YesNo);
             if (resualt == DialogResult.Yes)
             {

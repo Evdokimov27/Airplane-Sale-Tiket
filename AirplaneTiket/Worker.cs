@@ -14,6 +14,7 @@ namespace AirplaneTiket
     public partial class Worker : UserControl
     {
         bd bd = new bd();
+        PrintTiket print = new PrintTiket();
         public Worker()
         {
             InitializeComponent();
@@ -53,6 +54,14 @@ namespace AirplaneTiket
 
             foreach (string[] s in data)
             guna2DataGridView1.Rows.Add(s);
+        }
+        private void Print()
+        {
+            
+            var ctrl = print;
+            Bitmap bmp = new Bitmap(ctrl.Width, ctrl.Height);
+            ctrl.DrawToBitmap(bmp, new Rectangle(Point.Empty, bmp.Size));
+            bmp.Save(@"C:\form.png");
         }
         private void deleteTiket()
         {
@@ -101,6 +110,10 @@ namespace AirplaneTiket
                     break;
                 case 2:
                     deleteTiket();
+                    break;                
+                case 3:
+                    print.id = Convert.ToInt32(guna2DataGridView1[0, guna2DataGridView1.CurrentRow.Index].Value.ToString());
+                    print.ShowDialog();
                     break;
             }
             guna2DataGridView1.Rows.Clear();

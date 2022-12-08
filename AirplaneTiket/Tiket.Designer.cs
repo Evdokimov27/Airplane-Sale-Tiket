@@ -159,12 +159,6 @@ namespace AirplaneTiket
             this.label4 = new System.Windows.Forms.Label();
             this.guna2PictureBox2 = new Guna.UI2.WinForms.Guna2PictureBox();
             this.label6 = new System.Windows.Forms.Label();
-            this.guna2Panel7 = new Guna.UI2.WinForms.Guna2Panel();
-            this.settings = new Guna.UI2.WinForms.Guna2ImageButton();
-            this.guna2Panel8 = new Guna.UI2.WinForms.Guna2Panel();
-            this.label7 = new System.Windows.Forms.Label();
-            this.guna2PictureBox4 = new Guna.UI2.WinForms.Guna2PictureBox();
-            this.label8 = new System.Windows.Forms.Label();
             this.guna2Panel11 = new Guna.UI2.WinForms.Guna2Panel();
             this.exit = new Guna.UI2.WinForms.Guna2ImageButton();
             this.guna2Panel12 = new Guna.UI2.WinForms.Guna2Panel();
@@ -256,9 +250,6 @@ namespace AirplaneTiket
             this.guna2Panel2.SuspendLayout();
             this.guna2Panel6.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).BeginInit();
-            this.guna2Panel7.SuspendLayout();
-            this.guna2Panel8.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).BeginInit();
             this.guna2Panel11.SuspendLayout();
             this.guna2Panel12.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox1)).BeginInit();
@@ -1342,7 +1333,6 @@ namespace AirplaneTiket
             this.flowLayoutPanel2.Controls.Add(this.guna2Panel46);
             this.flowLayoutPanel2.Controls.Add(this.guna2Panel4);
             this.flowLayoutPanel2.Controls.Add(this.guna2Panel2);
-            this.flowLayoutPanel2.Controls.Add(this.guna2Panel7);
             this.flowLayoutPanel2.Controls.Add(this.guna2Panel11);
             this.flowLayoutPanel2.Location = new System.Drawing.Point(3, 85);
             this.flowLayoutPanel2.Name = "flowLayoutPanel2";
@@ -1364,7 +1354,7 @@ namespace AirplaneTiket
             // 
             this.buyTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.buyTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.buyTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.buyTiket.Image = global::AirplaneTiket.Properties.Resources.tiket;
             this.buyTiket.ImageOffset = new System.Drawing.Point(0, 0);
             this.buyTiket.ImageRotate = 0F;
             this.buyTiket.ImageSize = new System.Drawing.Size(67, 67);
@@ -1428,7 +1418,7 @@ namespace AirplaneTiket
             // 
             this.profile.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.profile.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.profile.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.profile.Image = global::AirplaneTiket.Properties.Resources.profile;
             this.profile.ImageOffset = new System.Drawing.Point(0, 0);
             this.profile.ImageRotate = 0F;
             this.profile.ImageSize = new System.Drawing.Size(67, 67);
@@ -1492,7 +1482,7 @@ namespace AirplaneTiket
             // 
             this.myTiket.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.myTiket.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.myTiket.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.myTiket.Image = global::AirplaneTiket.Properties.Resources.cart;
             this.myTiket.ImageOffset = new System.Drawing.Point(0, 0);
             this.myTiket.ImageRotate = 0F;
             this.myTiket.ImageSize = new System.Drawing.Size(67, 67);
@@ -1541,77 +1531,13 @@ namespace AirplaneTiket
             this.label6.TabIndex = 20;
             this.label6.Text = "Мои билеты";
             // 
-            // guna2Panel7
-            // 
-            this.guna2Panel7.BackColor = System.Drawing.Color.DarkGray;
-            this.guna2Panel7.Controls.Add(this.settings);
-            this.guna2Panel7.Controls.Add(this.guna2Panel8);
-            this.guna2Panel7.Controls.Add(this.label8);
-            this.guna2Panel7.Location = new System.Drawing.Point(3, 282);
-            this.guna2Panel7.Name = "guna2Panel7";
-            this.guna2Panel7.Size = new System.Drawing.Size(249, 87);
-            this.guna2Panel7.TabIndex = 24;
-            // 
-            // settings
-            // 
-            this.settings.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.settings.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.settings.Image = global::AirplaneTiket.Properties.Resources.show_pass;
-            this.settings.ImageOffset = new System.Drawing.Point(0, 0);
-            this.settings.ImageRotate = 0F;
-            this.settings.ImageSize = new System.Drawing.Size(67, 67);
-            this.settings.Location = new System.Drawing.Point(0, 3);
-            this.settings.Name = "settings";
-            this.settings.PressedState.ImageSize = new System.Drawing.Size(64, 64);
-            this.settings.Size = new System.Drawing.Size(75, 76);
-            this.settings.TabIndex = 23;
-            this.settings.Click += new System.EventHandler(this.settings_Click);
-            // 
-            // guna2Panel8
-            // 
-            this.guna2Panel8.Controls.Add(this.label7);
-            this.guna2Panel8.Controls.Add(this.guna2PictureBox4);
-            this.guna2Panel8.Location = new System.Drawing.Point(0, 85);
-            this.guna2Panel8.Name = "guna2Panel8";
-            this.guna2Panel8.Size = new System.Drawing.Size(222, 87);
-            this.guna2Panel8.TabIndex = 22;
-            // 
-            // label7
-            // 
-            this.label7.AutoSize = true;
-            this.label7.Font = new System.Drawing.Font("Monotype Corsiva", 27.75F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label7.Location = new System.Drawing.Point(73, 23);
-            this.label7.Name = "label7";
-            this.label7.Size = new System.Drawing.Size(146, 45);
-            this.label7.TabIndex = 20;
-            this.label7.Text = "Профиль";
-            // 
-            // guna2PictureBox4
-            // 
-            this.guna2PictureBox4.ImageRotate = 0F;
-            this.guna2PictureBox4.Location = new System.Drawing.Point(9, 13);
-            this.guna2PictureBox4.Name = "guna2PictureBox4";
-            this.guna2PictureBox4.Size = new System.Drawing.Size(60, 55);
-            this.guna2PictureBox4.TabIndex = 17;
-            this.guna2PictureBox4.TabStop = false;
-            // 
-            // label8
-            // 
-            this.label8.AutoSize = true;
-            this.label8.Font = new System.Drawing.Font("Monotype Corsiva", 24F, System.Drawing.FontStyle.Italic, System.Drawing.GraphicsUnit.Point, ((byte)(204)));
-            this.label8.Location = new System.Drawing.Point(73, 23);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(154, 39);
-            this.label8.TabIndex = 20;
-            this.label8.Text = "Настройки";
-            // 
             // guna2Panel11
             // 
             this.guna2Panel11.BackColor = System.Drawing.Color.DarkGray;
             this.guna2Panel11.Controls.Add(this.exit);
             this.guna2Panel11.Controls.Add(this.guna2Panel12);
             this.guna2Panel11.Controls.Add(this.label10);
-            this.guna2Panel11.Location = new System.Drawing.Point(3, 375);
+            this.guna2Panel11.Location = new System.Drawing.Point(3, 282);
             this.guna2Panel11.Name = "guna2Panel11";
             this.guna2Panel11.Size = new System.Drawing.Size(249, 87);
             this.guna2Panel11.TabIndex = 25;
@@ -1620,7 +1546,7 @@ namespace AirplaneTiket
             // 
             this.exit.CheckedState.ImageSize = new System.Drawing.Size(64, 64);
             this.exit.HoverState.ImageSize = new System.Drawing.Size(65, 65);
-            this.exit.Image = global::AirplaneTiket.Properties.Resources.show_pass;
+            this.exit.Image = global::AirplaneTiket.Properties.Resources.exit;
             this.exit.ImageOffset = new System.Drawing.Point(0, 0);
             this.exit.ImageRotate = 0F;
             this.exit.ImageSize = new System.Drawing.Size(67, 67);
@@ -1673,7 +1599,7 @@ namespace AirplaneTiket
             // 
             this.ControlPanel.Location = new System.Drawing.Point(95, 6);
             this.ControlPanel.Name = "ControlPanel";
-            this.ControlPanel.Size = new System.Drawing.Size(408, 560);
+            this.ControlPanel.Size = new System.Drawing.Size(408, 547);
             this.ControlPanel.TabIndex = 19;
             this.ControlPanel.Paint += new System.Windows.Forms.PaintEventHandler(this.ControlPanel_Paint);
             // 
@@ -1817,11 +1743,6 @@ namespace AirplaneTiket
             this.guna2Panel6.ResumeLayout(false);
             this.guna2Panel6.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox2)).EndInit();
-            this.guna2Panel7.ResumeLayout(false);
-            this.guna2Panel7.PerformLayout();
-            this.guna2Panel8.ResumeLayout(false);
-            this.guna2Panel8.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.guna2PictureBox4)).EndInit();
             this.guna2Panel11.ResumeLayout(false);
             this.guna2Panel11.PerformLayout();
             this.guna2Panel12.ResumeLayout(false);
@@ -1961,12 +1882,6 @@ namespace AirplaneTiket
         private System.Windows.Forms.Label label4;
         private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox2;
         private System.Windows.Forms.Label label6;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel7;
-        private Guna.UI2.WinForms.Guna2ImageButton settings;
-        private Guna.UI2.WinForms.Guna2Panel guna2Panel8;
-        private System.Windows.Forms.Label label7;
-        private Guna.UI2.WinForms.Guna2PictureBox guna2PictureBox4;
-        private System.Windows.Forms.Label label8;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel11;
         private Guna.UI2.WinForms.Guna2ImageButton exit;
         private Guna.UI2.WinForms.Guna2Panel guna2Panel12;

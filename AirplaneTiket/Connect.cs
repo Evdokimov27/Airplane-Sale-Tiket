@@ -9,7 +9,7 @@ namespace AirplaneTiket
 {
     internal class bd
     {
-        public static MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc;");
+        public static MySqlConnection conn = new MySqlConnection("server=triniti.ru-hoster.com; uid=evdokCvc;port=3306;pwd=993eq1RmAc;database=evdokCvc; convert zero datetime=True");
 
         public void openBD()
         {

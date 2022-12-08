@@ -148,6 +148,7 @@ namespace AirplaneTiket
             this.Controls.Add(this.textBox3);
             this.Controls.Add(this.guna2Button1);
             this.Controls.Add(this.textBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "RecoverPass";
             this.Text = "Восстановление пароля";
             this.ResumeLayout(false);

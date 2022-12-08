@@ -116,6 +116,7 @@ namespace AirplaneTiket
             this.Controls.Add(this.guna2TextBox3);
             this.Controls.Add(this.guna2TextBox2);
             this.Controls.Add(this.guna2TextBox1);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedToolWindow;
             this.Name = "InsertAirs";
             this.Text = "InsertAirs";
             this.ResumeLayout(false);

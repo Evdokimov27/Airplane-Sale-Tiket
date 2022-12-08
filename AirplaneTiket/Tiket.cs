@@ -21,8 +21,8 @@ namespace AirplaneTiket
 {
     public partial class Tiket : Form
     {
-        public MyTiket myTkt = new MyTiket();
-        public BuyTiket buyTkt = new BuyTiket();
+        public static MyTiket myTkt = new MyTiket();
+        public static BuyTiket buyTkt = new BuyTiket();
         public static Profile prof = new Profile();
         public static Tiket tik = new Tiket();
         public static Settings sets = new Settings();
@@ -33,7 +33,6 @@ namespace AirplaneTiket
         public Tiket()
         {
             InitializeComponent();
-
         }
 
         public void addUserController(UserControl uc)
@@ -101,7 +100,7 @@ namespace AirplaneTiket
 
         private void Tiket_Load(object sender, EventArgs e)
         {
-
+            addUserController(prof);
         }
 
         private void ControlPanel_Paint(object sender, PaintEventArgs e)

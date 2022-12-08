@@ -36,6 +36,7 @@ namespace AirplaneTiket
             this.calendar = new System.Windows.Forms.MonthCalendar();
             this.button3 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.button5 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // gmap
@@ -77,7 +78,7 @@ namespace AirplaneTiket
             // 
             // button4
             // 
-            this.button4.Location = new System.Drawing.Point(30, 432);
+            this.button4.Location = new System.Drawing.Point(32, 406);
             this.button4.Name = "button4";
             this.button4.Size = new System.Drawing.Size(326, 55);
             this.button4.TabIndex = 13;
@@ -124,10 +125,21 @@ namespace AirplaneTiket
             this.button2.UseVisualStyleBackColor = true;
             this.button2.Click += new System.EventHandler(this.button2_Click);
             // 
+            // button5
+            // 
+            this.button5.Location = new System.Drawing.Point(32, 476);
+            this.button5.Name = "button5";
+            this.button5.Size = new System.Drawing.Size(326, 38);
+            this.button5.TabIndex = 14;
+            this.button5.Text = "Показать список рейсов";
+            this.button5.UseVisualStyleBackColor = true;
+            this.button5.Click += new System.EventHandler(this.button5_Click);
+            // 
             // BuyTiket
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.button5);
             this.Controls.Add(this.gmap);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.button4);
@@ -151,5 +163,6 @@ namespace AirplaneTiket
         private System.Windows.Forms.MonthCalendar calendar;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button2;
+        private System.Windows.Forms.Button button5;
     }
 }

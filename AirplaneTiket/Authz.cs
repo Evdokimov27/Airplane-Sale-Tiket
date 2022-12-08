@@ -12,8 +12,6 @@ namespace AirplaneTiket
     {
         bool hide = true;
         Tiket tiket = new Tiket();
-        Profile prof= new Profile();
-        BuyTiket buy = new BuyTiket();
         Admin admin = new Admin();
         bool enter;
         bd bd = new bd();
@@ -107,7 +105,7 @@ namespace AirplaneTiket
         public void User()
         {
             
-            string sql = "SELECT name, id_user FROM `user` WHERE `login` = @ulogin or `phone_nomber` = @nomber";
+            string sql = "SELECT fio, id_user FROM `user` WHERE `login` = @ulogin or `phone_nomber` = @nomber";
             MySqlCommand name = new MySqlCommand(sql, bd.conn);
             name.Parameters.Add("@ulogin", MySqlDbType.VarChar, 25);
             name.Parameters["@ulogin"].Value = textBox1.Text;
@@ -118,6 +116,7 @@ namespace AirplaneTiket
             {
                 Tiket.sets.id = reader[1].ToString();
                 Tiket.prof.id = Convert.ToInt32(reader[1].ToString());
+                Tiket.myTkt.id = Convert.ToInt32(reader[1].ToString());
                 Tiket.sets.name = reader[0].ToString();
             }
             reader.Close();

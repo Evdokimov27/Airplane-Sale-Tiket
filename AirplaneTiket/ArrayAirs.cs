@@ -26,7 +26,7 @@ namespace AirplaneTiket
 
             bd.openBD();
 
-            string query = "SELECT id_airplane,model, firm, amount_places FROM `airplane`";
+            string query = "SELECT id_airplane,model, firm, amount_places FROM `airplane` where id_airplane > 0";
             MySqlCommand command = new MySqlCommand(query, bd.conn);
             MySqlDataReader reader = command.ExecuteReader();
 
@@ -51,7 +51,6 @@ namespace AirplaneTiket
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(guna2DataGridView1.CurrentRow.Index.ToString());
             DialogResult resualt = MessageBox.Show("Подтвердить удаление?", "Удалить", MessageBoxButtons.YesNo);
             if (resualt == DialogResult.Yes)
             {
@@ -68,7 +67,10 @@ namespace AirplaneTiket
 
         private void guna2Button2_Click(object sender, EventArgs e)
         {
-
+            InsertAirs insertAirs = new InsertAirs();
+            insertAirs.ShowDialog();
+            guna2DataGridView1.Rows.Clear();
+            LoadData();
         }
 
         private void guna2Button1_Click(object sender, EventArgs e)
@@ -77,7 +79,7 @@ namespace AirplaneTiket
 
             bd.openBD();
 
-            string query = "UPDATE `evdokCvc`.`airplane` SET `model` = @model, `firm` = @firm , `amount_places` = @amount_places, `arrival` = @arrival where `id_flight` = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
+            string query = "UPDATE `evdokCvc`.`airplane` SET `model` = @model, `firm` = @firm , `amount_places` = @amount_places where `id_airplane` = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
             MySqlCommand command = new MySqlCommand(query, bd.conn);
 
             command.Parameters.Add("@model", MySqlDbType.VarChar, 45);

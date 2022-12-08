@@ -8,6 +8,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Diagnostics;
 using System.Drawing;
+using System.Globalization;
 using System.IO;
 using System.Linq;
 using System.Reflection;
@@ -27,6 +28,7 @@ namespace AirplaneTiket
         bd bd = new bd();
         public string name = "qwe";
         public int id = 0;
+        public CultureInfo culture = new CultureInfo("ru-ru");
 
         public Profile()
         {
@@ -37,7 +39,7 @@ namespace AirplaneTiket
         private void Profile_Load(object sender, EventArgs e)
         {
             bd.openBD();
-            string sql = "SELECT name, family, gender, date_birth, serial_pasport, nomber_pasport FROM `user` WHERE `id_user` = " + id;
+            string sql = "SELECT fio, gender, date_birth, serial_pasport, nomber_pasport FROM `user` WHERE `id_user` = " + id;
             MySqlCommand command = new MySqlCommand(sql, bd.conn);
 
 
@@ -47,11 +49,10 @@ namespace AirplaneTiket
             if (user.Read())
             {
                 label1.Text = user[0].ToString();
-                label2.Text = user[1].ToString();
-                label7.Text = user[2].ToString();
-                label5.Text = user[3].ToString();
-                label9.Text = user[4].ToString();
-                label8.Text = user[5].ToString();
+                label7.Text = user[1].ToString();
+                label5.Text = Convert.ToDateTime(user[2]).ToString("dd.MM.yyyy", culture);
+                label9.Text = user[3].ToString();
+                label8.Text = user[4].ToString();
                 user.Close();
             }
            

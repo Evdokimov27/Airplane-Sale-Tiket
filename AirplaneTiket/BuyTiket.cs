@@ -65,9 +65,14 @@ namespace AirplaneTiket
 
         }
 
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Flight flight = new Flight();
+            flight.Show();
+        }
+
         private void button4_Click(object sender, EventArgs e)
         {
-
             if (button1.Text != "Откуда" && button2.Text != "Куда" && button3.Text != "Дата")
             {
                 int id_flight = 0;
@@ -90,7 +95,7 @@ namespace AirplaneTiket
                 if(id_flight != 0)
                 {
                     string sql = "INSERT INTO `evdokCvc`.`tiket` (`id_tiket`, `id_flight`, `user_id`, `tiket_price`, `confirm`)" 
-                        + "VALUES (NULL, '"+ id_flight + "', @userid, '"+ km2 * 500 +"', '0');";
+                        + "VALUES (NULL, '"+ id_flight + "', @userid, '"+ (km2 * 50) +"', '0')";
                     MySqlCommand id = new MySqlCommand(sql, bd.conn);
 
                     id.Parameters.Add("@userid", MySqlDbType.Int32, 11);

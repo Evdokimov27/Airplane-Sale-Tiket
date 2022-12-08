@@ -4,6 +4,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Globalization;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -14,6 +15,7 @@ namespace AirplaneTiket
     public partial class ArrayUser : UserControl
     {
         public int row;
+        public CultureInfo culture = new CultureInfo("ru-ru");
         public ArrayUser()
         {
             InitializeComponent();
@@ -30,7 +32,7 @@ namespace AirplaneTiket
             MySqlCommand command = new MySqlCommand(query, bd.conn);
             MySqlDataReader reader = command.ExecuteReader();
             List<string[]> data = new List<string[]>();
-            guna2DataGridView1.Columns[6].DefaultCellStyle.Format = "dd/MM/yyyy";
+;
             while (reader.Read())
             {
                 data.Add(new string[7]);
@@ -41,7 +43,7 @@ namespace AirplaneTiket
                 data[data.Count - 1][3] = reader[3].ToString();
                 data[data.Count - 1][4] = reader[4].ToString();
                 data[data.Count - 1][5] = reader[5].ToString();
-                data[data.Count - 1][6] = reader[6].ToString();
+                data[data.Count - 1][6] = Convert.ToDateTime(reader[6]).ToString("dd.MM.yyyy", culture);
             }
             reader.Close();
 
@@ -60,8 +62,8 @@ namespace AirplaneTiket
             bd bd = new bd();
 
             bd.openBD();
-
-            string query = "UPDATE `evdokCvc`.`user` SET `FIO` = @fio, `login` = @login , `gender` = @gender, `phone_nomber` = @phone, `mail` = @mail, `date_birth` = @date_birth where `id_user` = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
+            
+            string query = "UPDATE `evdokCvc`.`user` SET `FIO` = @fio, `login` = @login , `gender` = @gender, `phone_nomber` = @phone, `mail` = @mail, `date_birth` = '"+ Convert.ToDateTime(guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[6].Value).ToString("yyyy.MM.dd", culture) + "' where `id_user` = " + guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[0].Value.ToString();
             MySqlCommand command = new MySqlCommand(query, bd.conn);
 
             command.Parameters.Add("@login", MySqlDbType.VarChar, 45);
@@ -70,12 +72,10 @@ namespace AirplaneTiket
             command.Parameters["@fio"].Value = guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[2].Value.ToString();
             command.Parameters.Add("@gender", MySqlDbType.VarChar, 5);
             command.Parameters["@gender"].Value = guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[3].Value.ToString();
-            command.Parameters.Add("@phone", MySqlDbType.Int64, 11);
+            command.Parameters.Add("@phone", MySqlDbType.UInt64, 11);
             command.Parameters["@phone"].Value = guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[4].Value.ToString();
-            command.Parameters.Add("@mail", MySqlDbType.Int64, 11);
+            command.Parameters.Add("@mail", MySqlDbType.VarChar, 11);
             command.Parameters["@mail"].Value = guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[5].Value.ToString();
-            command.Parameters.Add("@date_birth", MySqlDbType.VarChar, 11);
-            command.Parameters["@date_birth"].Value = guna2DataGridView1.Rows[guna2DataGridView1.CurrentRow.Index].Cells[6].Value.ToString();
 
             command.ExecuteNonQuery();
             bd.closeBD();
@@ -97,7 +97,6 @@ namespace AirplaneTiket
 
         private void guna2Button3_Click(object sender, EventArgs e)
         {
-            MessageBox.Show(guna2DataGridView1.CurrentRow.Index.ToString());
             DialogResult resualt = MessageBox.Show("Подтвердить удаление?", "Удалить", MessageBoxButtons.YesNo);
             if (resualt == DialogResult.Yes)
             {

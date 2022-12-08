@@ -533,3 +533,5 @@ C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.I
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.InsertUser.resources
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.InsertFlight.resources
 C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.InsertAirs.resources
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.Flight.resources
+C:\Users\Evdokimov\Desktop\kursovoy-main\AirplaneTiket\obj\Debug\AirplaneTiket.PrintTiket.resources
